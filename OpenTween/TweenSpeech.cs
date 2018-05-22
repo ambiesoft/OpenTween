@@ -15,6 +15,22 @@ namespace OpenTween
         private SpeechSynthesizer _syn;
         private LinkedList<string> _speechBook = new LinkedList<string>();
 
+        void InitSpeech()
+        {
+            // bool b = isEnglish(" 🍫🌐 text");
+            // bool c = isEnglish("‘no longer a priority; a pariah’");
+            //string test = "Elon Musk admitted there was a braking issue with the Tesla's Model 3 sedan — but said it would be fixed with a firmware update in a few days. cnb.cx/2KL7YJb";
+            //bool e = isEnglish(test);
+            // bool f = isEnglish("An estimated 40.3 million people worldwide are victims of modern slavery. Watch @gaylelemmon, @marklagon, and E. Benjamin Skinner discuss the scourge of modern slavery and what can be done: on.cfr.org/2IDzc7Z");
+            // bool g = isEnglish("‘No concessions made’ as US remains hopeful on #NorthKorea summit – Pence on.rt.com/95ta pic.twitter.com/BV3y2SoFKA");
+        }
+        bool IsSpeechEnabled
+        {
+            get
+            {
+                return EnableSpeechMenuItem.Checked;
+            }
+        }
         private void OnSpeechNewPost(PostClass[] notifyPosts)
         {
             StringBuilder sbs = new StringBuilder();
@@ -57,14 +73,24 @@ namespace OpenTween
                     }
                 }
             }
-            string ret2 = doc.DocumentNode.InnerText;
-            ret2 = post.Nickname + " : " + ret2;
+            string ret = doc.DocumentNode.InnerText;
+            ret = ret.Replace("#", "").Replace("@", "");
+            ret = post.Nickname + " : " + ret;
 
-            return ret2;
+            return ret;
         }
+        Regex _regRemoveEmoji = new Regex(@"\p{Cs}");
         private bool isEnglish(string text)
         {
-            text = text.Replace("…", "");
+            text = _regRemoveEmoji.Replace(text, "");
+            text = text.Replace("…", "").
+                Replace("“", "\"").
+                Replace("”", "\"").
+                Replace("‘", "'").
+                Replace("’", "'").
+                Replace("—", "-").
+                Replace("–", "-");
+
             System.Text.Encoding iso = System.Text.Encoding.GetEncoding("iso-8859-1");
             System.Text.Encoding unicode = System.Text.Encoding.Unicode;
 
@@ -146,9 +172,9 @@ namespace OpenTween
             }
             else
             {
-                _syn.SelectVoiceByHints(VoiceGender.NotSet, VoiceAge.NotSet, 0, new System.Globalization.CultureInfo("ja"));
+                _syn.SelectVoiceByHints(VoiceGender.NotSet, VoiceAge.NotSet, 0, new System.Globalization.CultureInfo("en"));
                 _syn.Rate = rate;
-                _syn.SpeakAsync(bText);
+                _syn.SpeakAsync("Unknown language");
             }
         }
 
@@ -181,10 +207,7 @@ namespace OpenTween
         {
             _jpVoice = (InstalledVoice)(((ToolStripMenuItem)sender).Tag);
         }
-        private void EnglishEngineMenuItem_DropDownOpening(object sender, EventArgs e)
-        {
-            EngineMenuItem_DropDownOpeningCommon("en", EnglishEngineMenuItem, selectEnglishEngine_click,_enVoice);
-        }
+
         private void EngineMenuItem_DropDownOpeningCommon(string lng, ToolStripMenuItem parent, EventHandler eh, InstalledVoice curV)
         {
             if (!initSpeechEngine())
@@ -219,7 +242,10 @@ namespace OpenTween
             }
             
         }
-
+        private void EnglishEngineMenuItem_DropDownOpening(object sender, EventArgs e)
+        {
+            EngineMenuItem_DropDownOpeningCommon("en", EnglishEngineMenuItem, selectEnglishEngine_click, _enVoice);
+        }
         private void JapaneseEngineMenuItem_DropDownOpening(object sender, EventArgs e)
         {
             EngineMenuItem_DropDownOpeningCommon("ja", JapaneseEngineMenuItem, selectJapaneseEngine_click,_jpVoice);

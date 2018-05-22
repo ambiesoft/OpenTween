@@ -1729,6 +1729,9 @@ namespace OpenTween
                     return;
             }
 
+            if(!_initial && notifyPosts != null && notifyPosts.Length > 0 && IsSpeechEnabled)
+                OnSpeechNewPost(notifyPosts);
+
             //新着通知
             if (BalloonRequired())
             {
@@ -1814,8 +1817,6 @@ namespace OpenTween
                     }
                     else
                     {
-                        OnSpeechNewPost(notifyPosts);
-
                         StringBuilder sb = new StringBuilder();
                         bool reply = false;
                         bool dm = false;
@@ -11442,6 +11443,8 @@ namespace OpenTween
 
             this.ReplaceAppName();
             this.InitializeShortcuts();
+
+            this.InitSpeech();
         }
 
         private void _hookGlobalHotkey_HotkeyPressed(object sender, KeyEventArgs e)
@@ -12350,6 +12353,5 @@ namespace OpenTween
             }
         }
 
-  
     }
 }

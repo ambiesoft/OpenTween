@@ -119,70 +119,70 @@
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="StatusLabelUrl.Size" type="System.Drawing.Size, System.Drawing">
-    <value>410, 23</value>
+    <value>386, 23</value>
   </data>
   <data name="UrlMultibyteSplitPullDownMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>445, 24</value>
+    <value>336, 22</value>
   </data>
   <data name="UrlMultibyteSplitPullDownMenuItem.Text" xml:space="preserve">
     <value>&amp;Separation of multibyte character string from URL</value>
   </data>
   <data name="PreventSmsCommandPullDownMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>445, 24</value>
+    <value>336, 22</value>
   </data>
   <data name="PreventSmsCommandPullDownMenuItem.Text" xml:space="preserve">
     <value>Prevent interpreting text as SMS command</value>
   </data>
   <data name="UrlAutoShortenPullDownMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>445, 24</value>
+    <value>336, 22</value>
   </data>
   <data name="UrlAutoShortenPullDownMenuItem.Text" xml:space="preserve">
     <value>&amp;URL is automatically shortened</value>
   </data>
   <data name="IdeographicSpaceToSpacePullDownMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>445, 24</value>
+    <value>336, 22</value>
   </data>
   <data name="IdeographicSpaceToSpacePullDownMenuItem.Text" xml:space="preserve">
     <value>&amp;Convert IdeographicSpace to Space</value>
   </data>
   <data name="MultiLinePullDownMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>445, 24</value>
+    <value>336, 22</value>
   </data>
   <data name="MultiLinePullDownMenuItem.Text" xml:space="preserve">
     <value>Input field is &amp;Multiline</value>
   </data>
   <data name="FocusLockPullDownMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>445, 24</value>
+    <value>336, 22</value>
   </data>
   <data name="FocusLockPullDownMenuItem.Text" xml:space="preserve">
     <value>Left focus in input box after posting</value>
   </data>
   <data name="ToolStripSeparator35.Size" type="System.Drawing.Size, System.Drawing">
-    <value>442, 6</value>
+    <value>333, 6</value>
   </data>
   <data name="ImageSelectPullDownMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>445, 24</value>
+    <value>336, 22</value>
   </data>
   <data name="ImageSelectPullDownMenuItem.Text" xml:space="preserve">
     <value>&amp;Pick a media file</value>
   </data>
   <data name="ToolStripSeparator8.Size" type="System.Drawing.Size, System.Drawing">
-    <value>442, 6</value>
+    <value>333, 6</value>
   </data>
   <data name="HashTogglePullDownMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>445, 24</value>
+    <value>336, 22</value>
   </data>
   <data name="HashTogglePullDownMenuItem.Text" xml:space="preserve">
     <value>&amp;Toggle Hashtag</value>
   </data>
   <data name="HashManagePullDownMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>445, 24</value>
+    <value>336, 22</value>
   </data>
   <data name="HashManagePullDownMenuItem.Text" xml:space="preserve">
     <value>Hashtag &amp;Manager</value>
   </data>
   <data name="ContextMenuPostMode.Size" type="System.Drawing.Size, System.Drawing">
-    <value>446, 232</value>
+    <value>337, 214</value>
   </data>
   <data name="ContextMenuPostMode.ToolTip" xml:space="preserve">
     <value />
@@ -215,34 +215,34 @@
     <value>PostsListArea</value>
   </data>
   <data name="AddTabMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>247, 24</value>
+    <value>195, 22</value>
   </data>
   <data name="AddTabMenuItem.Text" xml:space="preserve">
     <value>Create &amp;New Tab...</value>
   </data>
   <data name="TabRenameMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>247, 24</value>
+    <value>195, 22</value>
   </data>
   <data name="TabRenameMenuItem.Text" xml:space="preserve">
     <value>Rename Tab</value>
   </data>
   <data name="ToolStripSeparator20.Size" type="System.Drawing.Size, System.Drawing">
-    <value>244, 6</value>
+    <value>192, 6</value>
   </data>
   <data name="ProtectTabMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>247, 24</value>
+    <value>195, 22</value>
   </data>
   <data name="ProtectTabMenuItem.Text" xml:space="preserve">
     <value>&amp;Protect Tab</value>
   </data>
   <data name="UreadManageMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>247, 24</value>
+    <value>195, 22</value>
   </data>
   <data name="UreadManageMenuItem.Text" xml:space="preserve">
     <value>Manage Reading (&amp;U)</value>
   </data>
   <data name="NotifyDispMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>247, 24</value>
+    <value>195, 22</value>
   </data>
   <data name="NotifyDispMenuItem.Text" xml:space="preserve">
     <value>&amp;Enable Alert Popup (&amp;Q)</value>
@@ -251,52 +251,58 @@
     <value>Select a wav file.</value>
   </data>
   <data name="ToolStripSeparator18.Size" type="System.Drawing.Size, System.Drawing">
-    <value>244, 6</value>
+    <value>192, 6</value>
   </data>
   <data name="FilterEditMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>247, 24</value>
+    <value>195, 22</value>
   </data>
   <data name="FilterEditMenuItem.Text" xml:space="preserve">
     <value>Edit &amp;Filtering Rules...</value>
   </data>
   <data name="ToolStripSeparator19.Size" type="System.Drawing.Size, System.Drawing">
-    <value>244, 6</value>
+    <value>192, 6</value>
   </data>
   <data name="ClearTabMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>247, 24</value>
+    <value>195, 22</value>
   </data>
   <data name="ClearTabMenuItem.Text" xml:space="preserve">
     <value>Clear Posts in This Tab</value>
   </data>
   <data name="ToolStripSeparator11.Size" type="System.Drawing.Size, System.Drawing">
-    <value>244, 6</value>
+    <value>192, 6</value>
   </data>
   <data name="DeleteTabMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>247, 24</value>
+    <value>195, 22</value>
   </data>
   <data name="DeleteTabMenuItem.Text" xml:space="preserve">
     <value>&amp;Delete This Tab</value>
   </data>
   <data name="ContextMenuTabProperty.Size" type="System.Drawing.Size, System.Drawing">
-    <value>248, 251</value>
+    <value>196, 231</value>
   </data>
   <data name="ContextMenuTabProperty.ToolTip" xml:space="preserve">
     <value />
   </data>
   <data name="ListTab.Size" type="System.Drawing.Size, System.Drawing">
-    <value>570, 149</value>
+    <value>570, 156</value>
   </data>
   <data name="ListTab.ToolTip" xml:space="preserve">
     <value />
   </data>
   <data name="TimelinePanel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>570, 149</value>
+    <value>570, 156</value>
   </data>
   <data name="TimelinePanel.ToolTip" xml:space="preserve">
     <value />
   </data>
+  <data name="ImageSelector.Size" type="System.Drawing.Size, System.Drawing">
+    <value>570, 156</value>
+  </data>
+  <data name="ImageSelector.ToolTip" xml:space="preserve">
+    <value />
+  </data>
   <data name="ProfilePanel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>570, 149</value>
+    <value>570, 156</value>
   </data>
   <data name="ProfilePanel.ToolTip" xml:space="preserve">
     <value />
@@ -307,14 +313,17 @@
   <data name="tweetDetailsView.AccessibleName" xml:space="preserve">
     <value>PostDetailsArea</value>
   </data>
+  <data name="tweetDetailsView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>445, 137</value>
+  </data>
+  <data name="tweetDetailsView.ToolTip" xml:space="preserve">
+    <value />
+  </data>
   <data name="SplitContainer2.Panel1.ToolTip" xml:space="preserve">
     <value />
   </data>
   <data name="TableLayoutPanel2.AccessibleName" xml:space="preserve">
     <value>PostComposeArea</value>
-  </data>
-  <data name="StatusText.Size" type="System.Drawing.Size, System.Drawing">
-    <value>452, 22</value>
   </data>
   <data name="StatusText.AccessibleName" xml:space="preserve">
     <value>PostBodyInput</value>
@@ -322,8 +331,8 @@
   <data name="StatusText.ToolTip" xml:space="preserve">
     <value />
   </data>
-  <data name="lblLen.Location" type="System.Drawing.Point, System.Drawing">
-    <value>452, 0</value>
+  <data name="PostButton.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="lblLen.AccessibleName" xml:space="preserve">
     <value>RemainCharacterLength</value>
@@ -331,21 +340,18 @@
   <data name="lblLen.ToolTip" xml:space="preserve">
     <value />
   </data>
-  <data name="PostButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>511, 0</value>
-  </data>
-  <data name="PostButton.ToolTip" xml:space="preserve">
+  <data name="TableLayoutPanel2.ToolTip" xml:space="preserve">
     <value />
   </data>
   <data name="SplitContainer2.Panel2.ToolTip" xml:space="preserve">
     <value />
   </data>
   <data name="SplitContainer2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>570, 168</value>
+    <value>445, 164</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="SplitContainer2.SplitterDistance" type="System.Int32, mscorlib">
-    <value>141</value>
+    <value>137</value>
   </data>
   <data name="SplitContainer2.ToolTip" xml:space="preserve">
     <value />
@@ -357,7 +363,7 @@
     <value>ThumbnailArea</value>
   </data>
   <data name="tweetThumbnail1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>55, 170</value>
+    <value>121, 164</value>
   </data>
   <data name="tweetThumbnail1.ToolTip" xml:space="preserve">
     <value />
@@ -366,7 +372,7 @@
     <value />
   </data>
   <data name="SplitContainer3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>570, 168</value>
+    <value>570, 164</value>
   </data>
   <data name="SplitContainer3.ToolTip" xml:space="preserve">
     <value />
@@ -375,16 +381,16 @@
     <value />
   </data>
   <data name="SplitContainer1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>574, 327</value>
+    <value>574, 330</value>
   </data>
   <data name="SplitContainer1.SplitterDistance" type="System.Int32, mscorlib">
-    <value>153</value>
+    <value>160</value>
   </data>
   <data name="SplitContainer1.ToolTip" xml:space="preserve">
     <value />
   </data>
   <data name="ToolStripContainer1.ContentPanel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>574, 327</value>
+    <value>574, 330</value>
   </data>
   <data name="ToolStripContainer1.ContentPanel.ToolTip" xml:space="preserve">
     <value />
@@ -402,514 +408,520 @@
     <value />
   </data>
   <data name="SettingFileMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>242, 24</value>
+    <value>192, 22</value>
   </data>
   <data name="SettingFileMenuItem.Text" xml:space="preserve">
     <value>Settings(&amp;O)...</value>
+  </data>
+  <data name="toolStripSeparator44.Size" type="System.Drawing.Size, System.Drawing">
+    <value>189, 6</value>
+  </data>
+  <data name="OpenURLFileMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>192, 22</value>
   </data>
   <data name="OpenURLFileMenuItem.Text" xml:space="preserve">
     <value>Open URL(&amp;L)...</value>
   </data>
   <data name="ToolStripSeparator21.Size" type="System.Drawing.Size, System.Drawing">
-    <value>239, 6</value>
+    <value>189, 6</value>
   </data>
   <data name="SaveFileMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>242, 24</value>
+    <value>192, 22</value>
   </data>
   <data name="SaveFileMenuItem.Text" xml:space="preserve">
     <value>&amp;Save to text file</value>
   </data>
   <data name="ToolStripSeparator23.Size" type="System.Drawing.Size, System.Drawing">
-    <value>239, 6</value>
+    <value>189, 6</value>
   </data>
   <data name="NotifyFileMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>242, 24</value>
+    <value>192, 22</value>
   </data>
   <data name="NotifyFileMenuItem.Text" xml:space="preserve">
     <value>Enable Alert popup(&amp;Q)</value>
   </data>
   <data name="PlaySoundFileMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>242, 24</value>
+    <value>192, 22</value>
   </data>
   <data name="PlaySoundFileMenuItem.Text" xml:space="preserve">
     <value>Enable Sounds</value>
   </data>
   <data name="LockListFileMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>242, 24</value>
+    <value>192, 22</value>
   </data>
   <data name="LockListFileMenuItem.Text" xml:space="preserve">
     <value>Stick &amp;List</value>
   </data>
   <data name="ToolStripSeparator43.Size" type="System.Drawing.Size, System.Drawing">
-    <value>239, 6</value>
+    <value>189, 6</value>
   </data>
   <data name="StopRefreshAllMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>242, 24</value>
+    <value>192, 22</value>
   </data>
   <data name="StopRefreshAllMenuItem.Text" xml:space="preserve">
     <value>Stop Refresh</value>
   </data>
   <data name="ToolStripSeparator24.Size" type="System.Drawing.Size, System.Drawing">
-    <value>239, 6</value>
+    <value>189, 6</value>
   </data>
   <data name="TweenRestartMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>242, 24</value>
+    <value>192, 22</value>
   </data>
   <data name="TweenRestartMenuItem.Text" xml:space="preserve">
     <value>&amp;Restart</value>
   </data>
   <data name="EndFileMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>242, 24</value>
+    <value>192, 22</value>
   </data>
   <data name="EndFileMenuItem.Text" xml:space="preserve">
     <value>E&amp;xit</value>
   </data>
   <data name="MenuItemFile.Size" type="System.Drawing.Size, System.Drawing">
-    <value>47, 23</value>
+    <value>37, 20</value>
   </data>
   <data name="MenuItemFile.Text" xml:space="preserve">
     <value>&amp;File</value>
   </data>
   <data name="UndoRemoveTabMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>320, 24</value>
+    <value>246, 22</value>
   </data>
   <data name="UndoRemoveTabMenuItem.Text" xml:space="preserve">
     <value>Undo remove tab</value>
   </data>
   <data name="ToolStripSeparator12.Size" type="System.Drawing.Size, System.Drawing">
-    <value>317, 6</value>
+    <value>243, 6</value>
   </data>
   <data name="CopySTOTMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>320, 24</value>
+    <value>246, 22</value>
   </data>
   <data name="CopySTOTMenuItem.Text" xml:space="preserve">
     <value>&amp;Copy (STOT-style)</value>
   </data>
   <data name="CopyURLMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>320, 24</value>
+    <value>246, 22</value>
   </data>
   <data name="CopyURLMenuItem.Text" xml:space="preserve">
     <value>Copy (&amp;Status URL)</value>
   </data>
   <data name="CopyUserIdStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>320, 24</value>
+    <value>246, 22</value>
   </data>
   <data name="CopyUserIdStripMenuItem.Text" xml:space="preserve">
     <value>Copy（Usern&amp;ame）</value>
   </data>
   <data name="ToolStripSeparator6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>317, 6</value>
+    <value>243, 6</value>
   </data>
   <data name="MenuItemSubSearch.Size" type="System.Drawing.Size, System.Drawing">
-    <value>320, 24</value>
+    <value>246, 22</value>
   </data>
   <data name="MenuItemSubSearch.Text" xml:space="preserve">
     <value>&amp;Find...</value>
   </data>
   <data name="MenuItemSearchNext.Size" type="System.Drawing.Size, System.Drawing">
-    <value>320, 24</value>
+    <value>246, 22</value>
   </data>
   <data name="MenuItemSearchNext.Text" xml:space="preserve">
     <value>Find Ne&amp;xt</value>
   </data>
   <data name="MenuItemSearchPrev.Size" type="System.Drawing.Size, System.Drawing">
-    <value>320, 24</value>
+    <value>246, 22</value>
   </data>
   <data name="MenuItemSearchPrev.Text" xml:space="preserve">
     <value>Find &amp;Previous</value>
   </data>
   <data name="ToolStripSeparator22.Size" type="System.Drawing.Size, System.Drawing">
-    <value>317, 6</value>
+    <value>243, 6</value>
   </data>
   <data name="PublicSearchQueryMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>320, 24</value>
+    <value>246, 22</value>
   </data>
   <data name="PublicSearchQueryMenuItem.Text" xml:space="preserve">
     <value>Input search &amp;Query</value>
   </data>
   <data name="MenuItemEdit.Size" type="System.Drawing.Size, System.Drawing">
-    <value>49, 23</value>
+    <value>39, 20</value>
   </data>
   <data name="MenuItemEdit.Text" xml:space="preserve">
     <value>&amp;Edit</value>
   </data>
   <data name="ReplyOpMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>347, 24</value>
+    <value>265, 22</value>
   </data>
   <data name="ReplyOpMenuItem.Text" xml:space="preserve">
     <value>@&amp;Reply</value>
   </data>
   <data name="ReplyAllOpMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>347, 24</value>
+    <value>265, 22</value>
   </data>
   <data name="ReplyAllOpMenuItem.Text" xml:space="preserve">
     <value>@R&amp;eply All</value>
   </data>
   <data name="DmOpMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>347, 24</value>
+    <value>265, 22</value>
   </data>
   <data name="DmOpMenuItem.Text" xml:space="preserve">
     <value>Send D&amp;M</value>
   </data>
   <data name="RtOpMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>347, 24</value>
+    <value>265, 22</value>
   </data>
   <data name="RtUnOpMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>347, 24</value>
+    <value>265, 22</value>
   </data>
   <data name="QtOpMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>347, 24</value>
+    <value>265, 22</value>
   </data>
   <data name="ToolStripSeparator25.Size" type="System.Drawing.Size, System.Drawing">
-    <value>344, 6</value>
+    <value>262, 6</value>
   </data>
   <data name="FavOpMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>347, 24</value>
+    <value>265, 22</value>
   </data>
   <data name="FavOpMenuItem.Text" xml:space="preserve">
     <value>Favorite(&amp;S)</value>
   </data>
   <data name="FavoriteRetweetMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>347, 24</value>
+    <value>265, 22</value>
   </data>
   <data name="FavoriteRetweetMenuItem.Text" xml:space="preserve">
     <value>Fav+Retweet</value>
   </data>
   <data name="FavoriteRetweetUnofficialMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>347, 24</value>
+    <value>265, 22</value>
   </data>
   <data name="FavoriteRetweetUnofficialMenuItem.Text" xml:space="preserve">
     <value>Fav+Retweet(Unofficial)</value>
   </data>
   <data name="UnFavOpMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>347, 24</value>
+    <value>265, 22</value>
   </data>
   <data name="UnFavOpMenuItem.Text" xml:space="preserve">
     <value>Unfavorite(&amp;V)</value>
   </data>
   <data name="ToolStripSeparator38.Size" type="System.Drawing.Size, System.Drawing">
-    <value>344, 6</value>
+    <value>262, 6</value>
   </data>
   <data name="ShowProfMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>347, 24</value>
+    <value>265, 22</value>
   </data>
   <data name="ShowProfMenuItem.Text" xml:space="preserve">
     <value>User &amp;Profile</value>
   </data>
   <data name="ShowRelatedStatusesMenuItem2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>347, 24</value>
+    <value>265, 22</value>
   </data>
   <data name="ShowRelatedStatusesMenuItem2.Text" xml:space="preserve">
     <value>Related Posts (&amp;G)</value>
   </data>
   <data name="ShowUserTimelineToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>347, 24</value>
+    <value>265, 22</value>
   </data>
   <data name="ShowUserTimelineToolStripMenuItem.Text" xml:space="preserve">
     <value>User's updates</value>
   </data>
   <data name="OpenHomeOpMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>306, 24</value>
+    <value>237, 22</value>
   </data>
   <data name="OpenHomeOpMenuItem.Text" xml:space="preserve">
     <value>&amp;Home</value>
   </data>
   <data name="OpenFavOpMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>306, 24</value>
+    <value>237, 22</value>
   </data>
   <data name="OpenFavOpMenuItem.Text" xml:space="preserve">
     <value>Favorites(&amp;G)</value>
   </data>
   <data name="OpenStatusOpMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>306, 24</value>
+    <value>237, 22</value>
   </data>
   <data name="OpenStatusOpMenuItem.Text" xml:space="preserve">
     <value>Status(&amp;O)</value>
   </data>
   <data name="OpenRepSourceOpMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>306, 24</value>
+    <value>237, 22</value>
   </data>
   <data name="OpenRepSourceOpMenuItem.Text" xml:space="preserve">
     <value>Reply to(&amp;I)</value>
   </data>
   <data name="OpenFavotterOpMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>306, 24</value>
+    <value>237, 22</value>
   </data>
   <data name="OpenFavotterOpMenuItem.Text" xml:space="preserve">
     <value>Favotter(&amp;P)</value>
   </data>
   <data name="OpenUrlOpMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>306, 24</value>
+    <value>237, 22</value>
   </data>
   <data name="OpenUrlOpMenuItem.Text" xml:space="preserve">
     <value>Referred &amp;Urls</value>
   </data>
   <data name="OpenRterHomeMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>306, 24</value>
+    <value>237, 22</value>
   </data>
   <data name="OpenRterHomeMenuItem.Text" xml:space="preserve">
     <value>&amp;Retweeter Home</value>
   </data>
   <data name="OpenUserSpecifiedUrlMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>306, 24</value>
+    <value>237, 22</value>
   </data>
   <data name="OpenUserSpecifiedUrlMenuItem.Text" xml:space="preserve">
     <value>User defined URL</value>
   </data>
   <data name="OpenOpMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>347, 24</value>
+    <value>265, 22</value>
   </data>
   <data name="OpenOpMenuItem.Text" xml:space="preserve">
     <value>&amp;Open as ...</value>
   </data>
   <data name="CreateTabRuleOpMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>118, 22</value>
+    <value>114, 22</value>
   </data>
   <data name="CreateTabRuleOpMenuItem.Text" xml:space="preserve">
     <value>Post(&amp;N)</value>
   </data>
   <data name="CreateIdRuleOpMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>118, 22</value>
+    <value>114, 22</value>
   </data>
   <data name="CreateIdRuleOpMenuItem.Text" xml:space="preserve">
     <value>&amp;ID</value>
   </data>
   <data name="CreateSourceRuleOpMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>118, 22</value>
+    <value>114, 22</value>
   </data>
   <data name="CreateSourceRuleOpMenuItem.Text" xml:space="preserve">
     <value>&amp;Source</value>
   </data>
   <data name="CreateRuleOpMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>347, 24</value>
+    <value>265, 22</value>
   </data>
   <data name="CreateRuleOpMenuItem.Text" xml:space="preserve">
     <value>&amp;Filter by ...</value>
   </data>
   <data name="ListManageMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>347, 24</value>
+    <value>265, 22</value>
   </data>
   <data name="ListManageMenuItem.Text" xml:space="preserve">
     <value>Manage &amp;Lists</value>
   </data>
   <data name="ToolStripSeparator26.Size" type="System.Drawing.Size, System.Drawing">
-    <value>344, 6</value>
+    <value>262, 6</value>
   </data>
   <data name="ReadOpMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>311, 24</value>
+    <value>239, 22</value>
   </data>
   <data name="ReadOpMenuItem.Text" xml:space="preserve">
     <value>Make read(&amp;B)</value>
   </data>
   <data name="UnreadOpMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>311, 24</value>
+    <value>239, 22</value>
   </data>
   <data name="UnreadOpMenuItem.Text" xml:space="preserve">
     <value>Make not read(&amp;U)</value>
   </data>
   <data name="ChangeReadOpMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>347, 24</value>
+    <value>265, 22</value>
   </data>
   <data name="ChangeReadOpMenuItem.Text" xml:space="preserve">
     <value>Change Unread state ...</value>
   </data>
   <data name="JumpReadOpMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>347, 24</value>
+    <value>265, 22</value>
   </data>
   <data name="JumpReadOpMenuItem.Text" xml:space="preserve">
     <value>Jump next to read tweet</value>
   </data>
   <data name="ToolStripSeparator27.Size" type="System.Drawing.Size, System.Drawing">
-    <value>344, 6</value>
+    <value>262, 6</value>
   </data>
   <data name="SelAllOpMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>347, 24</value>
+    <value>265, 22</value>
   </data>
   <data name="SelAllOpMenuItem.Text" xml:space="preserve">
     <value>Select &amp;All</value>
   </data>
   <data name="DelOpMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>347, 24</value>
+    <value>265, 22</value>
   </data>
   <data name="DelOpMenuItem.Text" xml:space="preserve">
     <value>&amp;Delete your tweet/DM</value>
   </data>
   <data name="RefreshOpMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>347, 24</value>
+    <value>265, 22</value>
   </data>
   <data name="RefreshOpMenuItem.Text" xml:space="preserve">
     <value>Refresh(&amp;U)</value>
   </data>
   <data name="RefreshPrevOpMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>347, 24</value>
+    <value>265, 22</value>
   </data>
   <data name="RefreshPrevOpMenuItem.Text" xml:space="preserve">
     <value>Fetch previous tweets(&amp;I)...</value>
   </data>
   <data name="MenuItemOperate.Size" type="System.Drawing.Size, System.Drawing">
-    <value>93, 23</value>
+    <value>72, 20</value>
   </data>
   <data name="MenuItemOperate.Text" xml:space="preserve">
     <value>&amp;Operation</value>
   </data>
   <data name="CreateTbMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>248, 24</value>
+    <value>194, 22</value>
   </data>
   <data name="CreateTbMenuItem.Text" xml:space="preserve">
     <value>Create &amp;New Tab...</value>
   </data>
   <data name="RenameTbMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>248, 24</value>
+    <value>194, 22</value>
   </data>
   <data name="RenameTbMenuItem.Text" xml:space="preserve">
     <value>&amp;Rename Tab...</value>
   </data>
   <data name="ToolStripSeparator28.Size" type="System.Drawing.Size, System.Drawing">
-    <value>245, 6</value>
+    <value>191, 6</value>
   </data>
   <data name="ProtectTbMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>248, 24</value>
+    <value>194, 22</value>
   </data>
   <data name="ProtectTbMenuItem.Text" xml:space="preserve">
     <value>&amp;Protect Tab</value>
   </data>
   <data name="UnreadMngTbMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>248, 24</value>
+    <value>194, 22</value>
   </data>
   <data name="UnreadMngTbMenuItem.Text" xml:space="preserve">
     <value>Manage Reading(&amp;U)</value>
   </data>
   <data name="NotifyTbMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>248, 24</value>
+    <value>194, 22</value>
   </data>
   <data name="NotifyTbMenuItem.Text" xml:space="preserve">
     <value>Enable Alert Popup(&amp;Q)</value>
   </data>
   <data name="ToolStripSeparator29.Size" type="System.Drawing.Size, System.Drawing">
-    <value>245, 6</value>
+    <value>191, 6</value>
   </data>
   <data name="EditRuleTbMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>248, 24</value>
+    <value>194, 22</value>
   </data>
   <data name="EditRuleTbMenuItem.Text" xml:space="preserve">
     <value>Edit &amp;Filtering rules...</value>
   </data>
   <data name="ToolStripSeparator30.Size" type="System.Drawing.Size, System.Drawing">
-    <value>245, 6</value>
+    <value>191, 6</value>
   </data>
   <data name="ClearTbMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>248, 24</value>
+    <value>194, 22</value>
   </data>
   <data name="ClearTbMenuItem.Text" xml:space="preserve">
     <value>&amp;Clear posts in this tab</value>
   </data>
   <data name="ToolStripSeparator31.Size" type="System.Drawing.Size, System.Drawing">
-    <value>245, 6</value>
+    <value>191, 6</value>
   </data>
   <data name="DeleteTbMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>248, 24</value>
+    <value>194, 22</value>
   </data>
   <data name="DeleteTbMenuItem.Text" xml:space="preserve">
     <value>&amp;Delete this tab</value>
   </data>
   <data name="MenuItemTab.Size" type="System.Drawing.Size, System.Drawing">
-    <value>47, 23</value>
+    <value>38, 20</value>
   </data>
   <data name="MenuItemTab.Text" xml:space="preserve">
     <value>&amp;Tab</value>
   </data>
   <data name="UrlConvertAutoToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>218, 24</value>
+    <value>174, 22</value>
   </data>
   <data name="UrlConvertAutoToolStripMenuItem.Text" xml:space="preserve">
     <value>Auto Select</value>
   </data>
   <data name="UrlUndoToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>218, 24</value>
+    <value>174, 22</value>
   </data>
   <data name="UrlUndoToolStripMenuItem.Text" xml:space="preserve">
     <value>Undo</value>
   </data>
   <data name="TinyURLToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>218, 24</value>
+    <value>174, 22</value>
   </data>
   <data name="IsgdToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>218, 24</value>
+    <value>174, 22</value>
   </data>
   <data name="TwurlnlToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>218, 24</value>
+    <value>174, 22</value>
   </data>
   <data name="BitlyToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>218, 24</value>
+    <value>174, 22</value>
   </data>
   <data name="JmpStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>218, 24</value>
+    <value>174, 22</value>
   </data>
   <data name="UxnuMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>218, 24</value>
+    <value>174, 22</value>
   </data>
   <data name="TinyUrlConvertToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>294, 24</value>
+    <value>211, 22</value>
   </data>
   <data name="TinyUrlConvertToolStripMenuItem.Text" xml:space="preserve">
     <value>&amp;Shorten URL</value>
   </data>
   <data name="UrlMultibyteSplitMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>334, 22</value>
+    <value>336, 22</value>
   </data>
   <data name="UrlMultibyteSplitMenuItem.Text" xml:space="preserve">
     <value>&amp;Separation of multibyte character string from URL</value>
   </data>
   <data name="PreventSmsCommandMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>334, 22</value>
+    <value>336, 22</value>
   </data>
   <data name="PreventSmsCommandMenuItem.Text" xml:space="preserve">
     <value>Prevent interpreting text as SMS command</value>
   </data>
   <data name="UrlAutoShortenMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>334, 22</value>
+    <value>336, 22</value>
   </data>
   <data name="UrlAutoShortenMenuItem.Text" xml:space="preserve">
     <value>&amp;URL is automatically shortened</value>
   </data>
   <data name="IdeographicSpaceToSpaceMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>334, 22</value>
+    <value>336, 22</value>
   </data>
   <data name="IdeographicSpaceToSpaceMenuItem.Text" xml:space="preserve">
     <value>&amp;Convert IdeographicSpace to Space</value>
   </data>
   <data name="MultiLineMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>334, 22</value>
+    <value>336, 22</value>
   </data>
   <data name="MultiLineMenuItem.Text" xml:space="preserve">
     <value>Input field is &amp;Multiline</value>
   </data>
   <data name="FocusLockMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>334, 22</value>
+    <value>336, 22</value>
   </data>
   <data name="FocusLockMenuItem.Text" xml:space="preserve">
     <value>Left focus in input box after posting</value>
   </data>
   <data name="toolStripSeparator5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>331, 6</value>
+    <value>333, 6</value>
   </data>
   <data name="ImageSelectMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>334, 22</value>
+    <value>336, 22</value>
   </data>
   <data name="ImageSelectMenuItem.Text" xml:space="preserve">
     <value>&amp;Pick a media file</value>
   </data>
   <data name="toolStripSeparator13.Size" type="System.Drawing.Size, System.Drawing">
-    <value>331, 6</value>
+    <value>333, 6</value>
   </data>
   <data name="HashToggleMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>334, 22</value>
+    <value>336, 22</value>
   </data>
   <data name="HashToggleMenuItem.Text" xml:space="preserve">
     <value>&amp;Toggle Hashtag</value>
   </data>
   <data name="HashManageMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>334, 22</value>
+    <value>336, 22</value>
   </data>
   <data name="HashManageMenuItem.Text" xml:space="preserve">
     <value>&amp;Hashtag Manager</value>
@@ -921,151 +933,181 @@
     <value>Post Settings</value>
   </data>
   <data name="UpdateFollowersMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>294, 24</value>
+    <value>211, 22</value>
   </data>
   <data name="UpdateFollowersMenuItem1.Text" xml:space="preserve">
     <value>Fetch User List</value>
   </data>
   <data name="ToolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>291, 6</value>
+    <value>208, 6</value>
   </data>
   <data name="FollowCommandMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>294, 24</value>
+    <value>211, 22</value>
   </data>
   <data name="FollowCommandMenuItem.Text" xml:space="preserve">
     <value>&amp;Follow</value>
   </data>
   <data name="RemoveCommandMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>294, 24</value>
+    <value>211, 22</value>
   </data>
   <data name="RemoveCommandMenuItem.Text" xml:space="preserve">
     <value>U&amp;nfollow</value>
   </data>
   <data name="FriendshipMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>294, 24</value>
+    <value>211, 22</value>
   </data>
   <data name="FriendshipMenuItem.Text" xml:space="preserve">
     <value>S&amp;how Friendship</value>
   </data>
   <data name="ToolStripSeparator3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>291, 6</value>
+    <value>208, 6</value>
   </data>
   <data name="OwnStatusMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>294, 24</value>
+    <value>211, 22</value>
   </data>
   <data name="OwnStatusMenuItem.Text" xml:space="preserve">
     <value>Show your profile</value>
   </data>
   <data name="OpenOwnHomeMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>294, 24</value>
+    <value>211, 22</value>
   </data>
   <data name="OpenOwnHomeMenuItem.Text" xml:space="preserve">
     <value>Open your profile page</value>
   </data>
   <data name="OpenOwnFavedMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>294, 24</value>
+    <value>211, 22</value>
   </data>
   <data name="OpenOwnFavedMenuItem.Text" xml:space="preserve">
     <value>Open your Favstar page</value>
   </data>
   <data name="ToolStripSeparator41.Size" type="System.Drawing.Size, System.Drawing">
-    <value>291, 6</value>
+    <value>208, 6</value>
   </data>
   <data name="UserStatusToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>294, 24</value>
+    <value>211, 22</value>
   </data>
   <data name="UserStatusToolStripMenuItem.Text" xml:space="preserve">
     <value>Show Profile selected user</value>
   </data>
   <data name="UserTimelineToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>294, 24</value>
+    <value>211, 22</value>
   </data>
   <data name="UserTimelineToolStripMenuItem.Text" xml:space="preserve">
     <value>Specified &amp;User's updates</value>
   </data>
   <data name="UserFavorareToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>294, 24</value>
+    <value>211, 22</value>
   </data>
   <data name="UserFavorareToolStripMenuItem.Text" xml:space="preserve">
     <value>Specified user's &amp;Favstar</value>
   </data>
   <data name="ToolStripSeparator34.Size" type="System.Drawing.Size, System.Drawing">
-    <value>291, 6</value>
+    <value>208, 6</value>
   </data>
   <data name="RtCountMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>294, 24</value>
+    <value>211, 22</value>
   </data>
   <data name="RtCountMenuItem.Text" xml:space="preserve">
     <value>Retweets of this tweet(&amp;C)</value>
   </data>
   <data name="ListManageToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>294, 24</value>
+    <value>211, 22</value>
   </data>
   <data name="ListManageToolStripMenuItem.Text" xml:space="preserve">
     <value>Edit Lists</value>
   </data>
   <data name="MenuItemCommand.Size" type="System.Drawing.Size, System.Drawing">
-    <value>95, 23</value>
+    <value>76, 20</value>
   </data>
   <data name="MenuItemCommand.Text" xml:space="preserve">
     <value>&amp;Command</value>
   </data>
   <data name="MatomeMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>278, 24</value>
+    <value>217, 22</value>
   </data>
   <data name="MatomeMenuItem.Text" xml:space="preserve">
     <value>%AppName% &amp;Help Site</value>
   </data>
   <data name="ShortcutKeyListMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>278, 24</value>
+    <value>217, 22</value>
   </data>
   <data name="ShortcutKeyListMenuItem.Text" xml:space="preserve">
     <value>Shortcut keys</value>
   </data>
   <data name="ToolStripSeparator16.Size" type="System.Drawing.Size, System.Drawing">
-    <value>275, 6</value>
+    <value>214, 6</value>
   </data>
   <data name="VerUpMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>278, 24</value>
+    <value>217, 22</value>
   </data>
   <data name="VerUpMenuItem.Text" xml:space="preserve">
     <value>Check for Updates (&amp;G)</value>
   </data>
   <data name="ToolStripSeparator14.Size" type="System.Drawing.Size, System.Drawing">
-    <value>275, 6</value>
+    <value>214, 6</value>
   </data>
   <data name="TwitterApiStatusToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>278, 24</value>
+    <value>217, 22</value>
   </data>
   <data name="TwitterApiStatusToolStripMenuItem.Text" xml:space="preserve">
     <value>Twitter API Status (web)</value>
   </data>
   <data name="ApiUsageInfoMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>278, 24</value>
+    <value>217, 22</value>
   </data>
   <data name="ApiUsageInfoMenuItem.Text" xml:space="preserve">
     <value>Twitter API Usage</value>
   </data>
   <data name="ToolStripSeparator7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>275, 6</value>
+    <value>214, 6</value>
   </data>
   <data name="AboutMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>278, 24</value>
+    <value>217, 22</value>
   </data>
   <data name="AboutMenuItem.Text" xml:space="preserve">
     <value>&amp;About %AppName%...</value>
   </data>
   <data name="DebugModeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>278, 24</value>
+    <value>217, 22</value>
   </data>
   <data name="MenuItemHelp.Size" type="System.Drawing.Size, System.Drawing">
-    <value>54, 23</value>
+    <value>44, 20</value>
   </data>
   <data name="MenuItemHelp.Text" xml:space="preserve">
     <value>&amp;Help</value>
   </data>
+  <data name="EnableSpeechMenuItem.Text" xml:space="preserve">
+    <value>&amp;Enabled</value>
+  </data>
+  <data name="SpeechAllClearMenuItem.Text" xml:space="preserve">
+    <value>&amp;Clear All</value>
+  </data>
+  <data name="PauseSpeechMenuItem.Text" xml:space="preserve">
+    <value>&amp;Pause</value>
+  </data>
+  <data name="EnglishEngineMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 22</value>
+  </data>
+  <data name="EnglishEngineMenuItem.Text" xml:space="preserve">
+    <value>&amp;English</value>
+  </data>
+  <data name="JapaneseEngineMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 22</value>
+  </data>
+  <data name="JapaneseEngineMenuItem.Text" xml:space="preserve">
+    <value>&amp;Japanese</value>
+  </data>
+  <data name="EngineMenuItem.Text" xml:space="preserve">
+    <value>En&amp;gine</value>
+  </data>
+  <data name="SpeechMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 20</value>
+  </data>
+  <data name="SpeechMenuItem.Text" xml:space="preserve">
+    <value>&amp;Speech</value>
+  </data>
   <data name="MenuStrip1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>574, 27</value>
+    <value>574, 24</value>
   </data>
   <data name="MenuStrip1.ToolTip" xml:space="preserve">
     <value />
@@ -1074,414 +1116,415 @@
     <value />
   </data>
   <data name="ReadedStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>189, 24</value>
+    <value>155, 22</value>
   </data>
   <data name="ReadedStripMenuItem.Text" xml:space="preserve">
     <value>Make Read (&amp;B)</value>
   </data>
   <data name="UnreadStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>189, 24</value>
+    <value>155, 22</value>
   </data>
   <data name="UnreadStripMenuItem.Text" xml:space="preserve">
     <value>Make Not Read</value>
   </data>
   <data name="ToolStripMenuItem11.Size" type="System.Drawing.Size, System.Drawing">
-    <value>258, 24</value>
+    <value>201, 22</value>
   </data>
   <data name="ToolStripMenuItem11.Text" xml:space="preserve">
     <value>Change unread state</value>
   </data>
   <data name="SelectAllMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>258, 24</value>
+    <value>201, 22</value>
   </data>
   <data name="SelectAllMenuItem.Text" xml:space="preserve">
     <value>Select &amp;All</value>
   </data>
   <data name="JumpUnreadMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>258, 24</value>
+    <value>201, 22</value>
   </data>
   <data name="JumpUnreadMenuItem.Text" xml:space="preserve">
     <value>Jump Next to read post</value>
   </data>
   <data name="ToolStripSeparator4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>255, 6</value>
+    <value>198, 6</value>
   </data>
   <data name="ToolStripSeparator10.Size" type="System.Drawing.Size, System.Drawing">
-    <value>255, 6</value>
+    <value>198, 6</value>
   </data>
   <data name="ListManageUserContextToolStripMenuItem2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>258, 24</value>
+    <value>201, 22</value>
   </data>
   <data name="ListManageUserContextToolStripMenuItem2.Text" xml:space="preserve">
     <value>Add to &amp;Lists</value>
   </data>
   <data name="OpenURLMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>245, 24</value>
+    <value>194, 22</value>
   </data>
   <data name="OpenURLMenuItem.Text" xml:space="preserve">
     <value>Referred &amp;URL</value>
   </data>
   <data name="IDRuleMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>122, 22</value>
+    <value>117, 22</value>
   </data>
   <data name="IDRuleMenuItem.Text" xml:space="preserve">
     <value>ID</value>
   </data>
   <data name="MoveToRTHomeMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>245, 24</value>
+    <value>194, 22</value>
   </data>
   <data name="MoveToRTHomeMenuItem.Text" xml:space="preserve">
     <value>Open &amp;Retweeter Home</value>
   </data>
   <data name="FavorareMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>245, 24</value>
+    <value>194, 22</value>
   </data>
   <data name="FavorareMenuItem.Text" xml:space="preserve">
     <value>Open Favotter (&amp;P)</value>
   </data>
   <data name="TabMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>122, 22</value>
+    <value>117, 22</value>
   </data>
   <data name="TabMenuItem.Text" xml:space="preserve">
     <value>Post (&amp;N)</value>
   </data>
   <data name="OpenUserSpecifiedUrlMenuItem2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>245, 24</value>
+    <value>194, 22</value>
   </data>
   <data name="OpenUserSpecifiedUrlMenuItem2.Text" xml:space="preserve">
     <value>User defined URL</value>
   </data>
   <data name="DeleteStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>258, 24</value>
+    <value>201, 22</value>
   </data>
   <data name="DeleteStripMenuItem.Text" xml:space="preserve">
     <value>&amp;Delete</value>
   </data>
   <data name="SourceRuleMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>122, 22</value>
+    <value>117, 22</value>
   </data>
   <data name="SourceRuleMenuItem.Text" xml:space="preserve">
     <value>&amp;Source</value>
   </data>
   <data name="ToolStripMenuItem7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>258, 24</value>
+    <value>201, 22</value>
   </data>
   <data name="ToolStripMenuItem7.Text" xml:space="preserve">
     <value>Filter by ...</value>
   </data>
   <data name="RefreshStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>258, 24</value>
+    <value>201, 22</value>
   </data>
   <data name="RefreshStripMenuItem.Text" xml:space="preserve">
     <value>&amp;Update</value>
   </data>
   <data name="SettingStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>247, 24</value>
+    <value>195, 22</value>
   </data>
   <data name="SettingStripMenuItem.Text" xml:space="preserve">
     <value>Settings (&amp;O)...</value>
   </data>
   <data name="ToolStripSeparator9.Size" type="System.Drawing.Size, System.Drawing">
-    <value>244, 6</value>
+    <value>192, 6</value>
   </data>
   <data name="SaveLogMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>247, 24</value>
+    <value>195, 22</value>
   </data>
   <data name="SaveLogMenuItem.Text" xml:space="preserve">
     <value>&amp;Save...</value>
   </data>
   <data name="ToolStripSeparator17.Size" type="System.Drawing.Size, System.Drawing">
-    <value>244, 6</value>
+    <value>192, 6</value>
   </data>
   <data name="NewPostPopMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>247, 24</value>
+    <value>195, 22</value>
   </data>
   <data name="NewPostPopMenuItem.Text" xml:space="preserve">
     <value>Enable Alert Popup (&amp;Q)</value>
   </data>
   <data name="PlaySoundMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>247, 24</value>
+    <value>195, 22</value>
   </data>
   <data name="PlaySoundMenuItem.Text" xml:space="preserve">
     <value>Enable Sounds</value>
   </data>
   <data name="ListLockMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>247, 24</value>
+    <value>195, 22</value>
   </data>
   <data name="ListLockMenuItem.Text" xml:space="preserve">
     <value>Stick &amp;List</value>
   </data>
   <data name="ToolStripSeparator15.Size" type="System.Drawing.Size, System.Drawing">
-    <value>244, 6</value>
+    <value>192, 6</value>
   </data>
   <data name="EndToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>247, 24</value>
+    <value>195, 22</value>
   </data>
   <data name="EndToolStripMenuItem.Text" xml:space="preserve">
     <value>E&amp;xit</value>
   </data>
   <data name="ContextMenuFile.Size" type="System.Drawing.Size, System.Drawing">
-    <value>248, 166</value>
+    <value>196, 154</value>
   </data>
   <data name="ContextMenuFile.ToolTip" xml:space="preserve">
     <value />
   </data>
   <data name="RefreshMoreStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>258, 24</value>
+    <value>201, 22</value>
   </data>
   <data name="RefreshMoreStripMenuItem.Text" xml:space="preserve">
     <value>Fetch previous tweets</value>
   </data>
   <data name="RepliedStatusOpenMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>245, 24</value>
+    <value>194, 22</value>
   </data>
   <data name="RepliedStatusOpenMenuItem.Text" xml:space="preserve">
     <value>Open Repl&amp;ied Status</value>
   </data>
   <data name="StatusOpenMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>245, 24</value>
+    <value>194, 22</value>
   </data>
   <data name="StatusOpenMenuItem.Text" xml:space="preserve">
     <value>&amp;Open Status</value>
   </data>
   <data name="ReplyStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>258, 24</value>
+    <value>201, 22</value>
   </data>
   <data name="ReplyStripMenuItem.Text" xml:space="preserve">
     <value>@ &amp;Reply</value>
   </data>
   <data name="ReplyAllStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>258, 24</value>
+    <value>201, 22</value>
   </data>
   <data name="ReplyAllStripMenuItem.Text" xml:space="preserve">
     <value>@ Reply ALL</value>
   </data>
   <data name="DMStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>258, 24</value>
+    <value>201, 22</value>
   </data>
   <data name="DMStripMenuItem.Text" xml:space="preserve">
     <value>Send D&amp;M</value>
   </data>
   <data name="ReTweetStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>258, 24</value>
+    <value>201, 22</value>
   </data>
   <data name="ReTweetUnofficialStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>258, 24</value>
+    <value>201, 22</value>
   </data>
   <data name="QuoteStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>258, 24</value>
+    <value>201, 22</value>
   </data>
   <data name="ToolStripSeparator39.Size" type="System.Drawing.Size, System.Drawing">
-    <value>255, 6</value>
+    <value>198, 6</value>
   </data>
   <data name="FavAddToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>258, 24</value>
+    <value>201, 22</value>
   </data>
   <data name="FavAddToolStripMenuItem.Text" xml:space="preserve">
     <value>Mark &amp;Favorite</value>
   </data>
   <data name="FavoriteRetweetContextMenu.Size" type="System.Drawing.Size, System.Drawing">
-    <value>258, 24</value>
+    <value>201, 22</value>
   </data>
   <data name="FavoriteRetweetContextMenu.Text" xml:space="preserve">
     <value>Fav+Retweet</value>
   </data>
   <data name="FavoriteRetweetUnofficialContextMenu.Size" type="System.Drawing.Size, System.Drawing">
-    <value>258, 24</value>
+    <value>201, 22</value>
   </data>
   <data name="FavoriteRetweetUnofficialContextMenu.Text" xml:space="preserve">
     <value>Fav+Retweet(Unofficial)</value>
   </data>
   <data name="FavRemoveToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>258, 24</value>
+    <value>201, 22</value>
   </data>
   <data name="FavRemoveToolStripMenuItem.Text" xml:space="preserve">
     <value>Unmark Favorite</value>
   </data>
   <data name="ToolStripSeparator2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>255, 6</value>
+    <value>198, 6</value>
   </data>
   <data name="ShowProfileMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>258, 24</value>
+    <value>201, 22</value>
   </data>
   <data name="ShowProfileMenuItem.Text" xml:space="preserve">
     <value>User &amp;Profile</value>
   </data>
   <data name="ShowRelatedStatusesMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>258, 24</value>
+    <value>201, 22</value>
   </data>
   <data name="ShowRelatedStatusesMenuItem.Text" xml:space="preserve">
     <value>Related Posts (&amp;G)</value>
   </data>
   <data name="ShowUserTimelineContextMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>258, 24</value>
+    <value>201, 22</value>
   </data>
   <data name="ShowUserTimelineContextMenuItem.Text" xml:space="preserve">
     <value>&amp;User's updates</value>
   </data>
   <data name="MoveToHomeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>245, 24</value>
+    <value>194, 22</value>
   </data>
   <data name="MoveToHomeToolStripMenuItem.Text" xml:space="preserve">
     <value>Open &amp;Home page</value>
   </data>
   <data name="MoveToFavToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>245, 24</value>
+    <value>194, 22</value>
   </data>
   <data name="MoveToFavToolStripMenuItem.Text" xml:space="preserve">
     <value>Open Favorites (&amp;G)</value>
   </data>
   <data name="ToolStripMenuItem6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>258, 24</value>
+    <value>201, 22</value>
   </data>
   <data name="ToolStripMenuItem6.Text" xml:space="preserve">
     <value>Open as ...</value>
   </data>
   <data name="ContextMenuOperate.Size" type="System.Drawing.Size, System.Drawing">
-    <value>259, 556</value>
+    <value>202, 512</value>
   </data>
   <data name="ContextMenuOperate.ToolTip" xml:space="preserve">
     <value />
-  </data>
-  <data name="PostStateImageList.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
-    <value>
-        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
-        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
-        ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAACW
-        HQAAAk1TRnQBSQFMAgEBDwEAAUgBAAFIAQABEAEAARABAAT/ASEBAAj/AUIBTQE2BwABNgMAASgDAAFA
-        AwABQAMAAQEBAAEgBgABQP8AIwADwAH/A8AB/xAAA8AB/yQAA8AB/wPAAf8QAAPAAf8kAAPAAf8DwAH/
-        EAADwAH/YAABLAGZAv8BLAGZAv8QAAEBAZkBAQH/A8AB/yAAASwBmQL/ASwBmQL/EAABAQGZAQEB/wPA
-        Af8gAAEsAZkC/wEsAZkC/xAAAQEBmQEBAf8DwAH/WAADwAH/ASwBmQL/ASwBmQL/A8AB/wPAAf8DwAH/
-        CAABAQGZAQEB/wPAAf8DwAH/FAADwAH/ASwBmQL/ASwBmQL/A8AB/wPAAf8DwAH/CAABAQGZAQEB/wPA
-        Af8DwAH/FAADwAH/ASwBmQL/ASwBmQL/A8AB/wPAAf8DwAH/CAABAQGZAQEB/wPAAf8DwAH/UAABLAGZ
-        Av8BLAGZAv8BLAGZAv8BLAGZAv8BLAGZAv8BLAGZAv8DwAH/BAABAQGZAQEB/wEBAZkBAQH/AQEBmQEB
-        Af8DwAH/A8AB/wwAASwBmQL/ASwBmQL/ASwBmQL/ASwBmQL/ASwBmQL/ASwBmQL/A8AB/wQAAQEBmQEB
-        Af8BAQGZAQEB/wEBAZkBAQH/A8AB/wPAAf8MAAEsAZkC/wEsAZkC/wEsAZkC/wEsAZkC/wEsAZkC/wEs
-        AZkC/wPAAf8EAAEBAZkBAQH/AQEBmQEBAf8BAQGZAQEB/wPAAf8DwAH/TAABLAGZAv8BLAGZAv8BLAGZ
-        Av8BLAGZAv8BLAGZAv8BLAGZAv8DwAH/AQEBmQEBAf8BAQGZAQEB/wEBAZkBAQH/AQEBmQEBAf8BAQGZ
-        AQEB/wPAAf8MAAEsAZkC/wEsAZkC/wEsAZkC/wEsAZkC/wEsAZkC/wEsAZkC/wPAAf8BAQGZAQEB/wEB
-        AZkBAQH/AQEBmQEBAf8BAQGZAQEB/wEBAZkBAQH/A8AB/wwAASwBmQL/ASwBmQL/ASwBmQL/ASwBmQL/
-        ASwBmQL/ASwBmQL/A8AB/wEBAZkBAQH/AQEBmQEBAf8BAQGZAQEB/wEBAZkBAQH/AQEBmQEBAf8DwAH/
-        TAABLAGZAv8BLAGZAv8BLAGZAv8BLAGZAv8BLAGZAv8BLAGZAv8DwAH/AQEBmQEBAf8BAQGZAQEB/wQA
-        AQEBmQEBAf8BAQGZAQEB/wPAAf8MAAEsAZkC/wEsAZkC/wEsAZkC/wEsAZkC/wEsAZkC/wEsAZkC/wPA
-        Af8BAQGZAQEB/wEBAZkBAQH/BAABAQGZAQEB/wEBAZkBAQH/A8AB/wwAASwBmQL/ASwBmQL/ASwBmQL/
-        ASwBmQL/ASwBmQL/ASwBmQL/A8AB/wEBAZkBAQH/AQEBmQEBAf8EAAEBAZkBAQH/AQEBmQEBAf8DwAH/
-        TAABLAGZAv8BLAGZAv8BLAGZAv8BLAGZAv8BLAGZAv8BLAGZAv8EAAEBAZkBAQH/AQEBmQEBAf8BAQGZ
-        AQEB/wEBAZkBAQH/AQEBmQEBAf8QAAEsAZkC/wEsAZkC/wEsAZkC/wEsAZkC/wEsAZkC/wEsAZkC/wQA
-        AQEBmQEBAf8BAQGZAQEB/wEBAZkBAQH/AQEBmQEBAf8BAQGZAQEB/xAAASwBmQL/ASwBmQL/ASwBmQL/
-        ASwBmQL/ASwBmQL/ASwBmQL/BAABAQGZAQEB/wEBAZkBAQH/AQEBmQEBAf8BAQGZAQEB/wEBAZkBAQH/
-        cAABAQGZAQEB/wEBAZkBAQH/AQEBmQEBAf80AAEBAZkBAQH/AQEBmQEBAf8BAQGZAQEB/zQAAQEBmQEB
-        Af8BAQGZAQEB/wEBAZkBAQH/WAADwAH/A8AB/wPAAf8DwAH/A8AB/wPAAf9MAAPAAf8DwAH/FAADwAH/
-        A8AB/wPAAf8DwAH/A8AB/wPAAf8MAAPAAf8DwAH/UAABmQJfAf8BmQJfAf8BmQJfAf8BmQJfAf8BmQJf
-        Af8BmQJfAf8DwAH/SAAB/wGZAQEC/wGZAQEB/wPAAf8DwAH/DAABmQJfAf8BmQJfAf8BmQJfAf8BmQJf
-        Af8BmQJfAf8BmQJfAf8DwAH/CAAB/wGZAQEC/wGZAQEB/wPAAf8DwAH/TAABmQJfAf8BmQJfAf8BmQJf
-        Af8BmQJfAf8BmQJfAf8BmQJfAf8DwAH/RAAB/wGZAQEC/wGZAQEC/wGZAQEC/wGZAQEB/wPAAf8DwAH/
-        CAABmQJfAf8BmQJfAf8BmQJfAf8BmQJfAf8BmQJfAf8BmQJfAf8DwAH/BAAB/wGZAQEC/wGZAQEC/wGZ
-        AQEC/wGZAQEB/wPAAf8DwAH/SAABmQJfAf8BmQJfAf8BmQJfAf8BmQJfAf8BmQJfAf8BmQJfAf8DwAH/
-        QAAB/wGZAQEC/wGZAQEB/wQAAf8BmQEBAv8BmQEBAv8BmQEBAf8DwAH/CAABmQJfAf8BmQJfAf8BmQJf
-        Af8BmQJfAf8BmQJfAf8BmQJfAf8DwAL/AZkBAQL/AZkBAQH/BAAB/wGZAQEC/wGZAQEC/wGZAQEB/wPA
-        Af9IAAGZAl8B/wGZAl8B/wGZAl8B/wGZAl8B/wGZAl8B/wGZAl8B/0QAAf8BmQEBAf8MAAH/AZkBAQL/
-        AZkBAQH/A8AB/wPAAf8EAAGZAl8B/wGZAl8B/wGZAl8B/wGZAl8B/wGZAl8B/wGZAl8B/wQAAf8BmQEB
-        Af8MAAH/AZkBAQL/AZkBAQH/A8AB/wPAAf9IAAGZAl8B/wQAA8AB/wGZAl8B/1wAAf8BmQEBAv8BmQEB
-        Af8DwAH/CAABmQJfAf8EAAPAAf8BmQJfAf8cAAH/AZkBAQL/AZkBAQH/A8AB/0wAAZkCXwH/AZkCXwH/
-        ZAAB/wGZAQEB/xAAAZkCXwH/AZkCXwH/JAAB/wGZAQEB//8AcQADwAH/PAADwAH/PAADwAH/JAADwAH/
-        A8AB/xAAA8AB/zgAAQEBmQEBAf8DwAH/OAABAQGZAQEB/wPAAf84AAEBAZkBAQH/A8AB/yAAASwBmQL/
-        ASwBmQL/EAABAQGZAQEB/wPAAf84AAEBAZkBAQH/A8AB/wPAAf80AAEBAZkBAQH/A8AB/wPAAf80AAEB
-        AZkBAQH/A8AB/wPAAf8UAAPAAf8BLAGZAv8BLAGZAv8DwAH/A8AB/wPAAf8IAAEBAZkBAQH/A8AB/wPA
-        Af8wAAEBAZkBAQH/AQEBmQEBAf8BAQGZAQEB/wPAAf8DwAH/LAABAQGZAQEB/wEBAZkBAQH/AQEBmQEB
-        Af8DwAH/A8AB/ywAAQEBmQEBAf8BAQGZAQEB/wEBAZkBAQH/A8AB/wPAAf8MAAEsAZkC/wEsAZkC/wEs
-        AZkC/wEsAZkC/wEsAZkC/wEsAZkC/wPAAf8EAAEBAZkBAQH/AQEBmQEBAf8BAQGZAQEB/wPAAf8DwAH/
-        KAABAQGZAQEB/wEBAZkBAQH/AQEBmQEBAf8BAQGZAQEB/wEBAZkBAQH/A8AB/ygAAQEBmQEBAf8BAQGZ
-        AQEB/wEBAZkBAQH/AQEBmQEBAf8BAQGZAQEB/wPAAf8oAAEBAZkBAQH/AQEBmQEBAf8BAQGZAQEB/wEB
-        AZkBAQH/AQEBmQEBAf8DwAH/DAABLAGZAv8BLAGZAv8BLAGZAv8BLAGZAv8BLAGZAv8BLAGZAv8DwAH/
-        AQEBmQEBAf8BAQGZAQEB/wEBAZkBAQH/AQEBmQEBAf8BAQGZAQEB/wPAAf8oAAEBAZkBAQH/AQEBmQEB
-        Af8EAAEBAZkBAQH/AQEBmQEBAf8DwAH/KAABAQGZAQEB/wEBAZkBAQH/BAABAQGZAQEB/wEBAZkBAQH/
-        A8AB/ygAAQEBmQEBAf8BAQGZAQEB/wQAAQEBmQEBAf8BAQGZAQEB/wPAAf8MAAEsAZkC/wEsAZkC/wEs
-        AZkC/wEsAZkC/wEsAZkC/wEsAZkC/wPAAf8BAQGZAQEB/wEBAZkBAQH/BAABAQGZAQEB/wEBAZkBAQH/
-        A8AB/ygAAQEBmQEBAf8BAQGZAQEB/wEBAZkBAQH/AQEBmQEBAf8BAQGZAQEB/ywAAQEBmQEBAf8BAQGZ
-        AQEB/wEBAZkBAQH/AQEBmQEBAf8BAQGZAQEB/ywAAQEBmQEBAf8BAQGZAQEB/wEBAZkBAQH/AQEBmQEB
-        Af8BAQGZAQEB/xAAASwBmQL/ASwBmQL/ASwBmQL/ASwBmQL/ASwBmQL/ASwBmQL/BAABAQGZAQEB/wEB
-        AZkBAQH/AQEBmQEBAf8BAQGZAQEB/wEBAZkBAQH/MAABAQGZAQEB/wEBAZkBAQH/AQEBmQEBAf80AAEB
-        AZkBAQH/AQEBmQEBAf8BAQGZAQEB/zQAAQEBmQEBAf8BAQGZAQEB/wEBAZkBAQH/NAABAQGZAQEB/wEB
-        AZkBAQH/AQEBmQEBAf8YAAPAAf8DwAH/A8AB/wPAAf8DwAH/A8AB/0wAA8AB/wPAAf8UAAPAAf8DwAH/
-        A8AB/wPAAf8DwAH/A8AB/wwAA8AB/wPAAf9QAAGZAl8B/wGZAl8B/wGZAl8B/wGZAl8B/wGZAl8B/wGZ
-        Al8B/wPAAf9IAAH/AZkBAQL/AZkBAQH/A8AB/wPAAf8MAAGZAl8B/wGZAl8B/wGZAl8B/wGZAl8B/wGZ
-        Al8B/wGZAl8B/wPAAf8IAAH/AZkBAQL/AZkBAQH/A8AB/wPAAf9MAAGZAl8B/wGZAl8B/wGZAl8B/wGZ
-        Al8B/wGZAl8B/wGZAl8B/wPAAf9EAAH/AZkBAQL/AZkBAQL/AZkBAQL/AZkBAQH/A8AB/wPAAf8IAAGZ
-        Al8B/wGZAl8B/wGZAl8B/wGZAl8B/wGZAl8B/wGZAl8B/wPAAf8EAAH/AZkBAQL/AZkBAQL/AZkBAQL/
-        AZkBAQH/A8AB/wPAAf9IAAGZAl8B/wGZAl8B/wGZAl8B/wGZAl8B/wGZAl8B/wGZAl8B/wPAAf9AAAH/
-        AZkBAQL/AZkBAQH/BAAB/wGZAQEC/wGZAQEC/wGZAQEB/wPAAf8IAAGZAl8B/wGZAl8B/wGZAl8B/wGZ
-        Al8B/wGZAl8B/wGZAl8B/wPAAv8BmQEBAv8BmQEBAf8EAAH/AZkBAQL/AZkBAQL/AZkBAQH/A8AB/0gA
-        AZkCXwH/AZkCXwH/AZkCXwH/AZkCXwH/AZkCXwH/AZkCXwH/RAAB/wGZAQEB/wwAAf8BmQEBAv8BmQEB
-        Af8DwAH/A8AB/wQAAZkCXwH/AZkCXwH/AZkCXwH/AZkCXwH/AZkCXwH/AZkCXwH/BAAB/wGZAQEB/wwA
-        Af8BmQEBAv8BmQEBAf8DwAH/A8AB/0gAAZkCXwH/BAADwAH/AZkCXwH/XAAB/wGZAQEC/wGZAQEB/wPA
-        Af8IAAGZAl8B/wQAA8AB/wGZAl8B/xwAAf8BmQEBAv8BmQEBAf8DwAH/TAABmQJfAf8BmQJfAf9kAAH/
-        AZkBAQH/EAABmQJfAf8BmQJfAf8kAAH/AZkBAQH//wBZAAPAAf8DwAH/OAADwAH/A8AB/zgAA8AB/wPA
-        Af9QAAPAAf8gAAEsAZkC/wEsAZkC/zgAASwBmQL/ASwBmQL/OAABLAGZAv8BLAGZAv9QAAEBAZkBAQH/
-        A8AB/xgAA8AB/wEsAZkC/wEsAZkC/wPAAf8DwAH/A8AB/ygAA8AB/wEsAZkC/wEsAZkC/wPAAf8DwAH/
-        A8AB/ygAA8AB/wEsAZkC/wEsAZkC/wPAAf8DwAH/A8AB/0gAAQEBmQEBAf8DwAH/A8AB/xAAASwBmQL/
-        ASwBmQL/ASwBmQL/ASwBmQL/ASwBmQL/ASwBmQL/A8AB/yQAASwBmQL/ASwBmQL/ASwBmQL/ASwBmQL/
-        ASwBmQL/ASwBmQL/A8AB/yQAASwBmQL/ASwBmQL/ASwBmQL/ASwBmQL/ASwBmQL/ASwBmQL/A8AB/0QA
-        AQEBmQEBAf8BAQGZAQEB/wEBAZkBAQH/A8AB/wPAAf8MAAEsAZkC/wEsAZkC/wEsAZkC/wEsAZkC/wEs
-        AZkC/wEsAZkC/wPAAf8kAAEsAZkC/wEsAZkC/wEsAZkC/wEsAZkC/wEsAZkC/wEsAZkC/wPAAf8kAAEs
-        AZkC/wEsAZkC/wEsAZkC/wEsAZkC/wEsAZkC/wEsAZkC/wPAAf9AAAEBAZkBAQH/AQEBmQEBAf8BAQGZ
-        AQEB/wEBAZkBAQH/AQEBmQEBAf8DwAH/DAABLAGZAv8BLAGZAv8BLAGZAv8BLAGZAv8BLAGZAv8BLAGZ
-        Av8DwAH/JAABLAGZAv8BLAGZAv8BLAGZAv8BLAGZAv8BLAGZAv8BLAGZAv8DwAH/JAABLAGZAv8BLAGZ
-        Av8BLAGZAv8BLAGZAv8BLAGZAv8BLAGZAv8DwAH/QAABAQGZAQEB/wEBAZkBAQH/BAABAQGZAQEB/wEB
-        AZkBAQH/A8AB/wwAASwBmQL/ASwBmQL/ASwBmQL/ASwBmQL/ASwBmQL/ASwBmQL/KAABLAGZAv8BLAGZ
-        Av8BLAGZAv8BLAGZAv8BLAGZAv8BLAGZAv8oAAEsAZkC/wEsAZkC/wEsAZkC/wEsAZkC/wEsAZkC/wEs
-        AZkC/0QAAQEBmQEBAf8BAQGZAQEB/wEBAZkBAQH/AQEBmQEBAf8BAQGZAQEB//AAAQEBmQEBAf8BAQGZ
-        AQEB/wEBAZkBAQH/GAADwAH/A8AB/wPAAf8DwAH/A8AB/wPAAf9MAAPAAf8DwAH/FAADwAH/A8AB/wPA
-        Af8DwAH/A8AB/wPAAf8MAAPAAf8DwAH/UAABmQJfAf8BmQJfAf8BmQJfAf8BmQJfAf8BmQJfAf8BmQJf
-        Af8DwAH/SAAB/wGZAQEC/wGZAQEB/wPAAf8DwAH/DAABmQJfAf8BmQJfAf8BmQJfAf8BmQJfAf8BmQJf
-        Af8BmQJfAf8DwAH/CAAB/wGZAQEC/wGZAQEB/wPAAf8DwAH/TAABmQJfAf8BmQJfAf8BmQJfAf8BmQJf
-        Af8BmQJfAf8BmQJfAf8DwAH/RAAB/wGZAQEC/wGZAQEC/wGZAQEC/wGZAQEB/wPAAf8DwAH/CAABmQJf
-        Af8BmQJfAf8BmQJfAf8BmQJfAf8BmQJfAf8BmQJfAf8DwAH/BAAB/wGZAQEC/wGZAQEC/wGZAQEC/wGZ
-        AQEB/wPAAf8DwAH/SAABmQJfAf8BmQJfAf8BmQJfAf8BmQJfAf8BmQJfAf8BmQJfAf8DwAH/QAAB/wGZ
-        AQEC/wGZAQEB/wQAAf8BmQEBAv8BmQEBAv8BmQEBAf8DwAH/CAABmQJfAf8BmQJfAf8BmQJfAf8BmQJf
-        Af8BmQJfAf8BmQJfAf8DwAL/AZkBAQL/AZkBAQH/BAAB/wGZAQEC/wGZAQEC/wGZAQEB/wPAAf9IAAGZ
-        Al8B/wGZAl8B/wGZAl8B/wGZAl8B/wGZAl8B/wGZAl8B/0QAAf8BmQEBAf8MAAH/AZkBAQL/AZkBAQH/
-        A8AB/wPAAf8EAAGZAl8B/wGZAl8B/wGZAl8B/wGZAl8B/wGZAl8B/wGZAl8B/wQAAf8BmQEBAf8MAAH/
-        AZkBAQL/AZkBAQH/A8AB/wPAAf9IAAGZAl8B/wQAA8AB/wGZAl8B/1wAAf8BmQEBAv8BmQEBAf8DwAH/
-        CAABmQJfAf8EAAPAAf8BmQJfAf8cAAH/AZkBAQL/AZkBAQH/A8AB/0wAAZkCXwH/AZkCXwH/ZAAB/wGZ
-        AQEB/xAAAZkCXwH/AZkCXwH/JAAB/wGZAQEB//8A/wAaAAPAAf8DwAH/9AABLAGZAv8BLAGZAv/wAAPA
-        Af8BLAGZAv8BLAGZAv8DwAH/A8AB/wPAAf/kAAEsAZkC/wEsAZkC/wEsAZkC/wEsAZkC/wEsAZkC/wEs
-        AZkC/wPAAf/kAAEsAZkC/wEsAZkC/wEsAZkC/wEsAZkC/wEsAZkC/wEsAZkC/wPAAf/kAAEsAZkC/wEs
-        AZkC/wEsAZkC/wEsAZkC/wEsAZkC/wEsAZkC/wPAAf/kAAEsAZkC/wEsAZkC/wEsAZkC/wEsAZkC/wEs
-        AZkC/wEsAZkC//8ALQADwAH/A8AB/wPAAf8DwAH/A8AB/wPAAf9MAAPAAf8DwAH/FAADwAH/A8AB/wPA
-        Af8DwAH/A8AB/wPAAf8MAAPAAf8DwAH/UAABmQJfAf8BmQJfAf8BmQJfAf8BmQJfAf8BmQJfAf8BmQJf
-        Af8DwAH/SAAB/wGZAQEC/wGZAQEB/wPAAf8DwAH/DAABmQJfAf8BmQJfAf8BmQJfAf8BmQJfAf8BmQJf
-        Af8BmQJfAf8DwAH/CAAB/wGZAQEC/wGZAQEB/wPAAf8DwAH/TAABmQJfAf8BmQJfAf8BmQJfAf8BmQJf
-        Af8BmQJfAf8BmQJfAf8DwAH/RAAB/wGZAQEC/wGZAQEC/wGZAQEC/wGZAQEB/wPAAf8DwAH/CAABmQJf
-        Af8BmQJfAf8BmQJfAf8BmQJfAf8BmQJfAf8BmQJfAf8DwAH/BAAB/wGZAQEC/wGZAQEC/wGZAQEC/wGZ
-        AQEB/wPAAf8DwAH/SAABmQJfAf8BmQJfAf8BmQJfAf8BmQJfAf8BmQJfAf8BmQJfAf8DwAH/QAAB/wGZ
-        AQEC/wGZAQEB/wQAAf8BmQEBAv8BmQEBAv8BmQEBAf8DwAH/CAABmQJfAf8BmQJfAf8BmQJfAf8BmQJf
-        Af8BmQJfAf8BmQJfAf8DwAL/AZkBAQL/AZkBAQH/BAAB/wGZAQEC/wGZAQEC/wGZAQEB/wPAAf9IAAGZ
-        Al8B/wGZAl8B/wGZAl8B/wGZAl8B/wGZAl8B/wGZAl8B/0QAAf8BmQEBAf8MAAH/AZkBAQL/AZkBAQH/
-        A8AB/wPAAf8EAAGZAl8B/wGZAl8B/wGZAl8B/wGZAl8B/wGZAl8B/wGZAl8B/wQAAf8BmQEBAf8MAAH/
-        AZkBAQL/AZkBAQH/A8AB/wPAAf9IAAGZAl8B/wQAA8AB/wGZAl8B/1wAAf8BmQEBAv8BmQEBAf8DwAH/
-        CAABmQJfAf8EAAPAAf8BmQJfAf8cAAH/AZkBAQL/AZkBAQH/A8AB/0wAAZkCXwH/AZkCXwH/ZAAB/wGZ
-        AQEB/xAAAZkCXwH/AZkCXwH/JAAB/wGZAQEB/0gAAUIBTQE+BwABPgMAASgDAAFAAwABQAMAAQEBAAEB
-        BgABAhYAA/8BAAb/AgAB8wHfAfMB3wHzAd8CAAHnAZ8B5wGfAecBnwIAAYEBjwGBAY8BgQGPAgABAQEH
-        AQEBBwEBAQcDAAEHAQABBwEAAQcDAAFHAQABRwEAAUcCAAECAQ8BAgEPAQIBDwIAAf8BHwH/AR8B/wEf
-        AgABgQL/Ac8BgQHPAgABAQL/AYcBAQGHAgABAQL/AQMBAQEDAgABAQH/Af4BQwEAAUMCAAEDAf8B/gHh
-        AQIB4QIAAacC/wHxAacB8QIAAc8C/wH7Ac8B+wIACf8B3wH/Ad8B/wHfAfMB3wH/AZ8B/wGfAf8BnwHn
-        AZ8B/wGPAf8BjwH/AY8BgQGPAf8BBwH/AQcB/wEHAQEBBwH+AQcB/gEHAf4BBwEAAQcB/gFHAf4BRwH+
-        AUcBAAFHAf4BDwH+AQ8B/gEPAQIBDwH/AR8B/wEfAf8BHwH/AR8BgQL/Ac8BgQHPAv8BAQL/AYcBAQGH
-        Av8BAQL/AQMBAQEDAv8BAQH/Af4BQwEAAUMC/wEDAf8B/gHhAQIB4QL/AacC/wHxAacB8QL/Ac8C/wH7
-        Ac8B+wr/AfMB/wHzAf8B8wL/Ad8B5wH/AecB/wHnAv8BnwGBAf8BgQH/AYEC/wGPAQEB/wEBAf8BAQL/
-        AQcBAQH/AQEB/wEBAf8B/gEHAQEB/wEBAf8BAQH/Af4BRwEDAf8BAwH/AQMB/wH+AQ8H/wEfAYEC/wHP
-        AYEBzwL/AQEC/wGHAQEBhwL/AQEC/wEDAQEBAwL/AQEB/wH+AUMBAAFDAv8BAwH/Af4B4QECAeEC/wGn
-        Av8B8QGnAfEC/wHPAv8B+wHPAfsQ/wHzB/8B5wf/AYEH/wEBB/8BAQf/AQEH/wEDCf8BgQL/Ac8BgQHP
-        Av8BAQL/AYcBAQGHAv8BAQL/AQMBAQEDAv8BAQH/Af4BQwEAAUMC/wEDAf8B/gHhAQIB4QL/AacC/wHx
-        AacB8QL/Ac8C/wH7Ac8B+wL/Cw==
-</value>
   </data>
   <data name="IconSizeToolStripMenuItem.Text" xml:space="preserve">
     <value>Icon size</value>
   </data>
   <data name="LockListSortOrderToolStripMenuItem.Text" xml:space="preserve">
     <value>Lock sort order</value>
+  </data>
+  <data name="ContextMenuColumnHeader.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PostStateImageList.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAAAm
+        HQAAAk1TRnQBSQFMAgEBDwEAAVgBAAFYAQABEAEAARABAAT/ASEBAAj/AUIBTQE2BwABNgMAASgDAAFA
+        AwABQAMAAQEBAAEgBgABQP8AIwADwAH/A8AB/xAAA8AB/yQAA8AB/wPAAf8QAAPAAf8kAAPAAf8DwAH/
+        EAADwAH/YAABKgGZAv8BKgGZAv8RAAGZAQAB/wPAAf8gAAEqAZkC/wEqAZkC/xEAAZkBAAH/A8AB/yAA
+        ASoBmQL/ASoBmQL/EQABmQEAAf8DwAH/WAADwAH/ASoBmQL/ASoBmQL/A8AB/wPAAf8DwAH/CQABmQEA
+        Af8DwAH/A8AB/xQAA8AB/wEqAZkC/wEqAZkC/wPAAf8DwAH/A8AB/wkAAZkBAAH/A8AB/wPAAf8UAAPA
+        Af8BKgGZAv8BKgGZAv8DwAH/A8AB/wPAAf8JAAGZAQAB/wPAAf8DwAH/UAABKgGZAv8BKgGZAv8BKgGZ
+        Av8BKgGZAv8BKgGZAv8BKgGZAv8DwAH/BQABmQEAAf8BAAGZAQAB/wEAAZkBAAH/A8AB/wPAAf8MAAEq
+        AZkC/wEqAZkC/wEqAZkC/wEqAZkC/wEqAZkC/wEqAZkC/wPAAf8FAAGZAQAB/wEAAZkBAAH/AQABmQEA
+        Af8DwAH/A8AB/wwAASoBmQL/ASoBmQL/ASoBmQL/ASoBmQL/ASoBmQL/ASoBmQL/A8AB/wUAAZkBAAH/
+        AQABmQEAAf8BAAGZAQAB/wPAAf8DwAH/TAABKgGZAv8BKgGZAv8BKgGZAv8BKgGZAv8BKgGZAv8BKgGZ
+        Av8DwAH/AQABmQEAAf8BAAGZAQAB/wEAAZkBAAH/AQABmQEAAf8BAAGZAQAB/wPAAf8MAAEqAZkC/wEq
+        AZkC/wEqAZkC/wEqAZkC/wEqAZkC/wEqAZkC/wPAAf8BAAGZAQAB/wEAAZkBAAH/AQABmQEAAf8BAAGZ
+        AQAB/wEAAZkBAAH/A8AB/wwAASoBmQL/ASoBmQL/ASoBmQL/ASoBmQL/ASoBmQL/ASoBmQL/A8AB/wEA
+        AZkBAAH/AQABmQEAAf8BAAGZAQAB/wEAAZkBAAH/AQABmQEAAf8DwAH/TAABKgGZAv8BKgGZAv8BKgGZ
+        Av8BKgGZAv8BKgGZAv8BKgGZAv8DwAH/AQABmQEAAf8BAAGZAQAB/wUAAZkBAAH/AQABmQEAAf8DwAH/
+        DAABKgGZAv8BKgGZAv8BKgGZAv8BKgGZAv8BKgGZAv8BKgGZAv8DwAH/AQABmQEAAf8BAAGZAQAB/wUA
+        AZkBAAH/AQABmQEAAf8DwAH/DAABKgGZAv8BKgGZAv8BKgGZAv8BKgGZAv8BKgGZAv8BKgGZAv8DwAH/
+        AQABmQEAAf8BAAGZAQAB/wUAAZkBAAH/AQABmQEAAf8DwAH/TAABKgGZAv8BKgGZAv8BKgGZAv8BKgGZ
+        Av8BKgGZAv8BKgGZAv8FAAGZAQAB/wEAAZkBAAH/AQABmQEAAf8BAAGZAQAB/wEAAZkBAAH/EAABKgGZ
+        Av8BKgGZAv8BKgGZAv8BKgGZAv8BKgGZAv8BKgGZAv8FAAGZAQAB/wEAAZkBAAH/AQABmQEAAf8BAAGZ
+        AQAB/wEAAZkBAAH/EAABKgGZAv8BKgGZAv8BKgGZAv8BKgGZAv8BKgGZAv8BKgGZAv8FAAGZAQAB/wEA
+        AZkBAAH/AQABmQEAAf8BAAGZAQAB/wEAAZkBAAH/cQABmQEAAf8BAAGZAQAB/wEAAZkBAAH/NQABmQEA
+        Af8BAAGZAQAB/wEAAZkBAAH/NQABmQEAAf8BAAGZAQAB/wEAAZkBAAH/WAADwAH/A8AB/wPAAf8DwAH/
+        A8AB/wPAAf9MAAPAAf8DwAH/FAADwAH/A8AB/wPAAf8DwAH/A8AB/wPAAf8MAAPAAf8DwAH/UAABmQJd
+        Af8BmQJdAf8BmQJdAf8BmQJdAf8BmQJdAf8BmQJdAf8DwAH/SAAB/wGZAQAC/wGZAQAB/wPAAf8DwAH/
+        DAABmQJdAf8BmQJdAf8BmQJdAf8BmQJdAf8BmQJdAf8BmQJdAf8DwAH/CAAB/wGZAQAC/wGZAQAB/wPA
+        Af8DwAH/TAABmQJdAf8BmQJdAf8BmQJdAf8BmQJdAf8BmQJdAf8BmQJdAf8DwAH/RAAB/wGZAQAC/wGZ
+        AQAC/wGZAQAC/wGZAQAB/wPAAf8DwAH/CAABmQJdAf8BmQJdAf8BmQJdAf8BmQJdAf8BmQJdAf8BmQJd
+        Af8DwAH/BAAB/wGZAQAC/wGZAQAC/wGZAQAC/wGZAQAB/wPAAf8DwAH/SAABmQJdAf8BmQJdAf8BmQJd
+        Af8BmQJdAf8BmQJdAf8BmQJdAf8DwAH/QAAB/wGZAQAC/wGZAQAB/wQAAf8BmQEAAv8BmQEAAv8BmQEA
+        Af8DwAH/CAABmQJdAf8BmQJdAf8BmQJdAf8BmQJdAf8BmQJdAf8BmQJdAf8DwAL/AZkBAAL/AZkBAAH/
+        BAAB/wGZAQAC/wGZAQAC/wGZAQAB/wPAAf9IAAGZAl0B/wGZAl0B/wGZAl0B/wGZAl0B/wGZAl0B/wGZ
+        Al0B/0QAAf8BmQEAAf8MAAH/AZkBAAL/AZkBAAH/A8AB/wPAAf8EAAGZAl0B/wGZAl0B/wGZAl0B/wGZ
+        Al0B/wGZAl0B/wGZAl0B/wQAAf8BmQEAAf8MAAH/AZkBAAL/AZkBAAH/A8AB/wPAAf9IAAGZAl0B/wQA
+        A8AB/wGZAl0B/1wAAf8BmQEAAv8BmQEAAf8DwAH/CAABmQJdAf8EAAPAAf8BmQJdAf8cAAH/AZkBAAL/
+        AZkBAAH/A8AB/0wAAZkCXQH/AZkCXQH/ZAAB/wGZAQAB/xAAAZkCXQH/AZkCXQH/JAAB/wGZAQAB//8A
+        cQADwAH/PAADwAH/PAADwAH/JAADwAH/A8AB/xAAA8AB/zkAAZkBAAH/A8AB/zkAAZkBAAH/A8AB/zkA
+        AZkBAAH/A8AB/yAAASoBmQL/ASoBmQL/EQABmQEAAf8DwAH/OQABmQEAAf8DwAH/A8AB/zUAAZkBAAH/
+        A8AB/wPAAf81AAGZAQAB/wPAAf8DwAH/FAADwAH/ASoBmQL/ASoBmQL/A8AB/wPAAf8DwAH/CQABmQEA
+        Af8DwAH/A8AB/zEAAZkBAAH/AQABmQEAAf8BAAGZAQAB/wPAAf8DwAH/LQABmQEAAf8BAAGZAQAB/wEA
+        AZkBAAH/A8AB/wPAAf8tAAGZAQAB/wEAAZkBAAH/AQABmQEAAf8DwAH/A8AB/wwAASoBmQL/ASoBmQL/
+        ASoBmQL/ASoBmQL/ASoBmQL/ASoBmQL/A8AB/wUAAZkBAAH/AQABmQEAAf8BAAGZAQAB/wPAAf8DwAH/
+        KQABmQEAAf8BAAGZAQAB/wEAAZkBAAH/AQABmQEAAf8BAAGZAQAB/wPAAf8pAAGZAQAB/wEAAZkBAAH/
+        AQABmQEAAf8BAAGZAQAB/wEAAZkBAAH/A8AB/ykAAZkBAAH/AQABmQEAAf8BAAGZAQAB/wEAAZkBAAH/
+        AQABmQEAAf8DwAH/DAABKgGZAv8BKgGZAv8BKgGZAv8BKgGZAv8BKgGZAv8BKgGZAv8DwAH/AQABmQEA
+        Af8BAAGZAQAB/wEAAZkBAAH/AQABmQEAAf8BAAGZAQAB/wPAAf8pAAGZAQAB/wEAAZkBAAH/BQABmQEA
+        Af8BAAGZAQAB/wPAAf8pAAGZAQAB/wEAAZkBAAH/BQABmQEAAf8BAAGZAQAB/wPAAf8pAAGZAQAB/wEA
+        AZkBAAH/BQABmQEAAf8BAAGZAQAB/wPAAf8MAAEqAZkC/wEqAZkC/wEqAZkC/wEqAZkC/wEqAZkC/wEq
+        AZkC/wPAAf8BAAGZAQAB/wEAAZkBAAH/BQABmQEAAf8BAAGZAQAB/wPAAf8pAAGZAQAB/wEAAZkBAAH/
+        AQABmQEAAf8BAAGZAQAB/wEAAZkBAAH/LQABmQEAAf8BAAGZAQAB/wEAAZkBAAH/AQABmQEAAf8BAAGZ
+        AQAB/y0AAZkBAAH/AQABmQEAAf8BAAGZAQAB/wEAAZkBAAH/AQABmQEAAf8QAAEqAZkC/wEqAZkC/wEq
+        AZkC/wEqAZkC/wEqAZkC/wEqAZkC/wUAAZkBAAH/AQABmQEAAf8BAAGZAQAB/wEAAZkBAAH/AQABmQEA
+        Af8xAAGZAQAB/wEAAZkBAAH/AQABmQEAAf81AAGZAQAB/wEAAZkBAAH/AQABmQEAAf81AAGZAQAB/wEA
+        AZkBAAH/AQABmQEAAf81AAGZAQAB/wEAAZkBAAH/AQABmQEAAf8YAAPAAf8DwAH/A8AB/wPAAf8DwAH/
+        A8AB/0wAA8AB/wPAAf8UAAPAAf8DwAH/A8AB/wPAAf8DwAH/A8AB/wwAA8AB/wPAAf9QAAGZAl0B/wGZ
+        Al0B/wGZAl0B/wGZAl0B/wGZAl0B/wGZAl0B/wPAAf9IAAH/AZkBAAL/AZkBAAH/A8AB/wPAAf8MAAGZ
+        Al0B/wGZAl0B/wGZAl0B/wGZAl0B/wGZAl0B/wGZAl0B/wPAAf8IAAH/AZkBAAL/AZkBAAH/A8AB/wPA
+        Af9MAAGZAl0B/wGZAl0B/wGZAl0B/wGZAl0B/wGZAl0B/wGZAl0B/wPAAf9EAAH/AZkBAAL/AZkBAAL/
+        AZkBAAL/AZkBAAH/A8AB/wPAAf8IAAGZAl0B/wGZAl0B/wGZAl0B/wGZAl0B/wGZAl0B/wGZAl0B/wPA
+        Af8EAAH/AZkBAAL/AZkBAAL/AZkBAAL/AZkBAAH/A8AB/wPAAf9IAAGZAl0B/wGZAl0B/wGZAl0B/wGZ
+        Al0B/wGZAl0B/wGZAl0B/wPAAf9AAAH/AZkBAAL/AZkBAAH/BAAB/wGZAQAC/wGZAQAC/wGZAQAB/wPA
+        Af8IAAGZAl0B/wGZAl0B/wGZAl0B/wGZAl0B/wGZAl0B/wGZAl0B/wPAAv8BmQEAAv8BmQEAAf8EAAH/
+        AZkBAAL/AZkBAAL/AZkBAAH/A8AB/0gAAZkCXQH/AZkCXQH/AZkCXQH/AZkCXQH/AZkCXQH/AZkCXQH/
+        RAAB/wGZAQAB/wwAAf8BmQEAAv8BmQEAAf8DwAH/A8AB/wQAAZkCXQH/AZkCXQH/AZkCXQH/AZkCXQH/
+        AZkCXQH/AZkCXQH/BAAB/wGZAQAB/wwAAf8BmQEAAv8BmQEAAf8DwAH/A8AB/0gAAZkCXQH/BAADwAH/
+        AZkCXQH/XAAB/wGZAQAC/wGZAQAB/wPAAf8IAAGZAl0B/wQAA8AB/wGZAl0B/xwAAf8BmQEAAv8BmQEA
+        Af8DwAH/TAABmQJdAf8BmQJdAf9kAAH/AZkBAAH/EAABmQJdAf8BmQJdAf8kAAH/AZkBAAH//wBZAAPA
+        Af8DwAH/OAADwAH/A8AB/zgAA8AB/wPAAf9QAAPAAf8gAAEqAZkC/wEqAZkC/zgAASoBmQL/ASoBmQL/
+        OAABKgGZAv8BKgGZAv9RAAGZAQAB/wPAAf8YAAPAAf8BKgGZAv8BKgGZAv8DwAH/A8AB/wPAAf8oAAPA
+        Af8BKgGZAv8BKgGZAv8DwAH/A8AB/wPAAf8oAAPAAf8BKgGZAv8BKgGZAv8DwAH/A8AB/wPAAf9JAAGZ
+        AQAB/wPAAf8DwAH/EAABKgGZAv8BKgGZAv8BKgGZAv8BKgGZAv8BKgGZAv8BKgGZAv8DwAH/JAABKgGZ
+        Av8BKgGZAv8BKgGZAv8BKgGZAv8BKgGZAv8BKgGZAv8DwAH/JAABKgGZAv8BKgGZAv8BKgGZAv8BKgGZ
+        Av8BKgGZAv8BKgGZAv8DwAH/RQABmQEAAf8BAAGZAQAB/wEAAZkBAAH/A8AB/wPAAf8MAAEqAZkC/wEq
+        AZkC/wEqAZkC/wEqAZkC/wEqAZkC/wEqAZkC/wPAAf8kAAEqAZkC/wEqAZkC/wEqAZkC/wEqAZkC/wEq
+        AZkC/wEqAZkC/wPAAf8kAAEqAZkC/wEqAZkC/wEqAZkC/wEqAZkC/wEqAZkC/wEqAZkC/wPAAf9BAAGZ
+        AQAB/wEAAZkBAAH/AQABmQEAAf8BAAGZAQAB/wEAAZkBAAH/A8AB/wwAASoBmQL/ASoBmQL/ASoBmQL/
+        ASoBmQL/ASoBmQL/ASoBmQL/A8AB/yQAASoBmQL/ASoBmQL/ASoBmQL/ASoBmQL/ASoBmQL/ASoBmQL/
+        A8AB/yQAASoBmQL/ASoBmQL/ASoBmQL/ASoBmQL/ASoBmQL/ASoBmQL/A8AB/0EAAZkBAAH/AQABmQEA
+        Af8FAAGZAQAB/wEAAZkBAAH/A8AB/wwAASoBmQL/ASoBmQL/ASoBmQL/ASoBmQL/ASoBmQL/ASoBmQL/
+        KAABKgGZAv8BKgGZAv8BKgGZAv8BKgGZAv8BKgGZAv8BKgGZAv8oAAEqAZkC/wEqAZkC/wEqAZkC/wEq
+        AZkC/wEqAZkC/wEqAZkC/0UAAZkBAAH/AQABmQEAAf8BAAGZAQAB/wEAAZkBAAH/AQABmQEAAf/xAAGZ
+        AQAB/wEAAZkBAAH/AQABmQEAAf8YAAPAAf8DwAH/A8AB/wPAAf8DwAH/A8AB/0wAA8AB/wPAAf8UAAPA
+        Af8DwAH/A8AB/wPAAf8DwAH/A8AB/wwAA8AB/wPAAf9QAAGZAl0B/wGZAl0B/wGZAl0B/wGZAl0B/wGZ
+        Al0B/wGZAl0B/wPAAf9IAAH/AZkBAAL/AZkBAAH/A8AB/wPAAf8MAAGZAl0B/wGZAl0B/wGZAl0B/wGZ
+        Al0B/wGZAl0B/wGZAl0B/wPAAf8IAAH/AZkBAAL/AZkBAAH/A8AB/wPAAf9MAAGZAl0B/wGZAl0B/wGZ
+        Al0B/wGZAl0B/wGZAl0B/wGZAl0B/wPAAf9EAAH/AZkBAAL/AZkBAAL/AZkBAAL/AZkBAAH/A8AB/wPA
+        Af8IAAGZAl0B/wGZAl0B/wGZAl0B/wGZAl0B/wGZAl0B/wGZAl0B/wPAAf8EAAH/AZkBAAL/AZkBAAL/
+        AZkBAAL/AZkBAAH/A8AB/wPAAf9IAAGZAl0B/wGZAl0B/wGZAl0B/wGZAl0B/wGZAl0B/wGZAl0B/wPA
+        Af9AAAH/AZkBAAL/AZkBAAH/BAAB/wGZAQAC/wGZAQAC/wGZAQAB/wPAAf8IAAGZAl0B/wGZAl0B/wGZ
+        Al0B/wGZAl0B/wGZAl0B/wGZAl0B/wPAAv8BmQEAAv8BmQEAAf8EAAH/AZkBAAL/AZkBAAL/AZkBAAH/
+        A8AB/0gAAZkCXQH/AZkCXQH/AZkCXQH/AZkCXQH/AZkCXQH/AZkCXQH/RAAB/wGZAQAB/wwAAf8BmQEA
+        Av8BmQEAAf8DwAH/A8AB/wQAAZkCXQH/AZkCXQH/AZkCXQH/AZkCXQH/AZkCXQH/AZkCXQH/BAAB/wGZ
+        AQAB/wwAAf8BmQEAAv8BmQEAAf8DwAH/A8AB/0gAAZkCXQH/BAADwAH/AZkCXQH/XAAB/wGZAQAC/wGZ
+        AQAB/wPAAf8IAAGZAl0B/wQAA8AB/wGZAl0B/xwAAf8BmQEAAv8BmQEAAf8DwAH/TAABmQJdAf8BmQJd
+        Af9kAAH/AZkBAAH/EAABmQJdAf8BmQJdAf8kAAH/AZkBAAH//wD/ABoAA8AB/wPAAf/0AAEqAZkC/wEq
+        AZkC//AAA8AB/wEqAZkC/wEqAZkC/wPAAf8DwAH/A8AB/+QAASoBmQL/ASoBmQL/ASoBmQL/ASoBmQL/
+        ASoBmQL/ASoBmQL/A8AB/+QAASoBmQL/ASoBmQL/ASoBmQL/ASoBmQL/ASoBmQL/ASoBmQL/A8AB/+QA
+        ASoBmQL/ASoBmQL/ASoBmQL/ASoBmQL/ASoBmQL/ASoBmQL/A8AB/+QAASoBmQL/ASoBmQL/ASoBmQL/
+        ASoBmQL/ASoBmQL/ASoBmQL//wAtAAPAAf8DwAH/A8AB/wPAAf8DwAH/A8AB/0wAA8AB/wPAAf8UAAPA
+        Af8DwAH/A8AB/wPAAf8DwAH/A8AB/wwAA8AB/wPAAf9QAAGZAl0B/wGZAl0B/wGZAl0B/wGZAl0B/wGZ
+        Al0B/wGZAl0B/wPAAf9IAAH/AZkBAAL/AZkBAAH/A8AB/wPAAf8MAAGZAl0B/wGZAl0B/wGZAl0B/wGZ
+        Al0B/wGZAl0B/wGZAl0B/wPAAf8IAAH/AZkBAAL/AZkBAAH/A8AB/wPAAf9MAAGZAl0B/wGZAl0B/wGZ
+        Al0B/wGZAl0B/wGZAl0B/wGZAl0B/wPAAf9EAAH/AZkBAAL/AZkBAAL/AZkBAAL/AZkBAAH/A8AB/wPA
+        Af8IAAGZAl0B/wGZAl0B/wGZAl0B/wGZAl0B/wGZAl0B/wGZAl0B/wPAAf8EAAH/AZkBAAL/AZkBAAL/
+        AZkBAAL/AZkBAAH/A8AB/wPAAf9IAAGZAl0B/wGZAl0B/wGZAl0B/wGZAl0B/wGZAl0B/wGZAl0B/wPA
+        Af9AAAH/AZkBAAL/AZkBAAH/BAAB/wGZAQAC/wGZAQAC/wGZAQAB/wPAAf8IAAGZAl0B/wGZAl0B/wGZ
+        Al0B/wGZAl0B/wGZAl0B/wGZAl0B/wPAAv8BmQEAAv8BmQEAAf8EAAH/AZkBAAL/AZkBAAL/AZkBAAH/
+        A8AB/0gAAZkCXQH/AZkCXQH/AZkCXQH/AZkCXQH/AZkCXQH/AZkCXQH/RAAB/wGZAQAB/wwAAf8BmQEA
+        Av8BmQEAAf8DwAH/A8AB/wQAAZkCXQH/AZkCXQH/AZkCXQH/AZkCXQH/AZkCXQH/AZkCXQH/BAAB/wGZ
+        AQAB/wwAAf8BmQEAAv8BmQEAAf8DwAH/A8AB/0gAAZkCXQH/BAADwAH/AZkCXQH/XAAB/wGZAQAC/wGZ
+        AQAB/wPAAf8IAAGZAl0B/wQAA8AB/wGZAl0B/xwAAf8BmQEAAv8BmQEAAf8DwAH/TAABmQJdAf8BmQJd
+        Af9kAAH/AZkBAAH/EAABmQJdAf8BmQJdAf8kAAH/AZkBAAH/SAABQgFNAT4HAAE+AwABKAMAAUADAAFA
+        AwABAQEAAQEGAAECFgAD/wEABv8CAAHzAd8B8wHfAfMB3wIAAecBnwHnAZ8B5wGfAgABgQGPAYEBjwGB
+        AY8CAAEBAQcBAQEHAQEBBwMAAQcBAAEHAQABBwMAAUcBAAFHAQABRwIAAQIBDwECAQ8BAgEPAgAB/wEf
+        Af8BHwH/AR8CAAGBAv8BzwGBAc8CAAEBAv8BhwEBAYcCAAEBAv8BAwEBAQMCAAEBAf8B/gFDAQABQwIA
+        AQMB/wH+AeEBAgHhAgABpwL/AfEBpwHxAgABzwL/AfsBzwH7AgAJ/wHfAf8B3wH/Ad8B8wHfAf8BnwH/
+        AZ8B/wGfAecBnwH/AY8B/wGPAf8BjwGBAY8B/wEHAf8BBwH/AQcBAQEHAf4BBwH+AQcB/gEHAQABBwH+
+        AUcB/gFHAf4BRwEAAUcB/gEPAf4BDwH+AQ8BAgEPAf8BHwH/AR8B/wEfAf8BHwGBAv8BzwGBAc8C/wEB
+        Av8BhwEBAYcC/wEBAv8BAwEBAQMC/wEBAf8B/gFDAQABQwL/AQMB/wH+AeEBAgHhAv8BpwL/AfEBpwHx
+        Av8BzwL/AfsBzwH7Cv8B8wH/AfMB/wHzAv8B3wHnAf8B5wH/AecC/wGfAYEB/wGBAf8BgQL/AY8BAQH/
+        AQEB/wEBAv8BBwEBAf8BAQH/AQEB/wH+AQcBAQH/AQEB/wEBAf8B/gFHAQMB/wEDAf8BAwH/Af4BDwf/
+        AR8BgQL/Ac8BgQHPAv8BAQL/AYcBAQGHAv8BAQL/AQMBAQEDAv8BAQH/Af4BQwEAAUMC/wEDAf8B/gHh
+        AQIB4QL/AacC/wHxAacB8QL/Ac8C/wH7Ac8B+xD/AfMH/wHnB/8BgQf/AQEH/wEBB/8BAQf/AQMJ/wGB
+        Av8BzwGBAc8C/wEBAv8BhwEBAYcC/wEBAv8BAwEBAQMC/wEBAf8B/gFDAQABQwL/AQMB/wH+AeEBAgHh
+        Av8BpwL/AfEBpwHxAv8BzwL/AfsBzwH7Av8L
+</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
     <value>574, 382</value>
