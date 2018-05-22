@@ -23,6 +23,7 @@ namespace OpenTween
             //bool e = isEnglish(test);
             // bool f = isEnglish("An estimated 40.3 million people worldwide are victims of modern slavery. Watch @gaylelemmon, @marklagon, and E. Benjamin Skinner discuss the scourge of modern slavery and what can be done: on.cfr.org/2IDzc7Z");
             // bool g = isEnglish("‘No concessions made’ as US remains hopeful on #NorthKorea summit – Pence on.rt.com/95ta pic.twitter.com/BV3y2SoFKA");
+            // bool h = isEnglish("Here'’s how to turn a Mustang GT into a performance");
         }
         bool IsSpeechEnabled
         {
