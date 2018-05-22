@@ -1814,6 +1814,8 @@ namespace OpenTween
                     }
                     else
                     {
+                        OnSpeechNewPost(notifyPosts);
+
                         StringBuilder sb = new StringBuilder();
                         bool reply = false;
                         bool dm = false;
@@ -12347,5 +12349,7 @@ namespace OpenTween
                 this.SetStatusLabelUrl();
             }
         }
+
+  
     }
 }

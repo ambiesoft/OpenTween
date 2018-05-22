@@ -269,6 +269,14 @@
             this.IconSize48_2ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ToolStripSeparator45 = new System.Windows.Forms.ToolStripSeparator();
             this.LockListSortOrderToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.SpeechMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.SpeechAllClearMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.PauseSpeechMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.EngineMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.EnglishEngineMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.dummyToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.JapaneseEngineMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.dummyToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.ToolStripContainer1.BottomToolStripPanel.SuspendLayout();
             this.ToolStripContainer1.ContentPanel.SuspendLayout();
             this.ToolStripContainer1.TopToolStripPanel.SuspendLayout();
@@ -480,8 +488,8 @@
             // 
             // TimelinePanel
             // 
-            this.TimelinePanel.Controls.Add(this.ListTab);
             resources.ApplyResources(this.TimelinePanel, "TimelinePanel");
+            this.TimelinePanel.Controls.Add(this.ListTab);
             this.TimelinePanel.Name = "TimelinePanel";
             // 
             // ListTab
@@ -665,7 +673,10 @@
             // tweetDetailsView
             // 
             resources.ApplyResources(this.tweetDetailsView, "tweetDetailsView");
+            this.tweetDetailsView.DumpPostClass = false;
+            this.tweetDetailsView.IconCache = null;
             this.tweetDetailsView.Name = "tweetDetailsView";
+            this.tweetDetailsView.Owner = null;
             this.tweetDetailsView.StatusChanged += new System.EventHandler<OpenTween.TweetDetailsViewStatusChengedEventArgs>(this.tweetDetailsView_StatusChanged);
             // 
             // TableLayoutPanel2
@@ -721,7 +732,8 @@
             this.MenuItemTab,
             this.MenuItemCommand,
             this.MenuItemUserStream,
-            this.MenuItemHelp});
+            this.MenuItemHelp,
+            this.SpeechMenuItem});
             this.MenuStrip1.Name = "MenuStrip1";
             this.MenuStrip1.RenderMode = System.Windows.Forms.ToolStripRenderMode.Professional;
             this.MenuStrip1.MenuActivate += new System.EventHandler(this.MenuStrip1_MenuActivate);
@@ -2151,6 +2163,59 @@
             resources.ApplyResources(this.LockListSortOrderToolStripMenuItem, "LockListSortOrderToolStripMenuItem");
             this.LockListSortOrderToolStripMenuItem.Click += new System.EventHandler(this.LockListSortToolStripMenuItem_Click);
             // 
+            // SpeechMenuItem
+            // 
+            this.SpeechMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.SpeechAllClearMenuItem,
+            this.PauseSpeechMenuItem,
+            this.EngineMenuItem});
+            this.SpeechMenuItem.Name = "SpeechMenuItem";
+            resources.ApplyResources(this.SpeechMenuItem, "SpeechMenuItem");
+            // 
+            // SpeechAllClearMenuItem
+            // 
+            this.SpeechAllClearMenuItem.Name = "SpeechAllClearMenuItem";
+            resources.ApplyResources(this.SpeechAllClearMenuItem, "SpeechAllClearMenuItem");
+            this.SpeechAllClearMenuItem.Click += new System.EventHandler(this.SpeechAllClearMenuItem_Click);
+            // 
+            // PauseSpeechMenuItem
+            // 
+            this.PauseSpeechMenuItem.Name = "PauseSpeechMenuItem";
+            resources.ApplyResources(this.PauseSpeechMenuItem, "PauseSpeechMenuItem");
+            this.PauseSpeechMenuItem.Click += new System.EventHandler(this.PauseSpeechMenuItem_Click);
+            // 
+            // EngineMenuItem
+            // 
+            this.EngineMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.EnglishEngineMenuItem,
+            this.JapaneseEngineMenuItem});
+            this.EngineMenuItem.Name = "EngineMenuItem";
+            resources.ApplyResources(this.EngineMenuItem, "EngineMenuItem");
+            // 
+            // EnglishEngineMenuItem
+            // 
+            this.EnglishEngineMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.dummyToolStripMenuItem});
+            this.EnglishEngineMenuItem.Name = "EnglishEngineMenuItem";
+            resources.ApplyResources(this.EnglishEngineMenuItem, "EnglishEngineMenuItem");
+            // 
+            // dummyToolStripMenuItem
+            // 
+            this.dummyToolStripMenuItem.Name = "dummyToolStripMenuItem";
+            resources.ApplyResources(this.dummyToolStripMenuItem, "dummyToolStripMenuItem");
+            // 
+            // JapaneseEngineMenuItem
+            // 
+            this.JapaneseEngineMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.dummyToolStripMenuItem1});
+            this.JapaneseEngineMenuItem.Name = "JapaneseEngineMenuItem";
+            resources.ApplyResources(this.JapaneseEngineMenuItem, "JapaneseEngineMenuItem");
+            // 
+            // dummyToolStripMenuItem1
+            // 
+            this.dummyToolStripMenuItem1.Name = "dummyToolStripMenuItem1";
+            resources.ApplyResources(this.dummyToolStripMenuItem1, "dummyToolStripMenuItem1");
+            // 
             // TweenMain
             // 
             this.AllowDrop = true;
@@ -2458,5 +2523,13 @@
         internal System.Windows.Forms.ToolStripSeparator toolStripSeparator13;
         internal System.Windows.Forms.ToolStripMenuItem HashToggleMenuItem;
         internal System.Windows.Forms.ToolStripMenuItem HashManageMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem SpeechMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem SpeechAllClearMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem PauseSpeechMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem EngineMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem EnglishEngineMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem dummyToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem JapaneseEngineMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem dummyToolStripMenuItem1;
     }
 }
