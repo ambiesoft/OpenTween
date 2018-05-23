@@ -168,8 +168,14 @@ namespace OpenTween
             {
                 _syn.SelectVoiceByHints(VoiceGender.NotSet, VoiceAge.NotSet, 0, new System.Globalization.CultureInfo("ja"));
                 _syn.Rate = rate;
-                _syn.SpeakAsync(bText);
-
+                if (_syn.Voice.Culture.Name.ToLower().IndexOf("ja") < 0)
+                {
+                    _syn.SpeakAsync("No japanese voice.");
+                }
+                else
+                {
+                    _syn.SpeakAsync(bText);
+                }
             }
             else
             {
