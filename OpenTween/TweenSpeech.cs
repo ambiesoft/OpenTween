@@ -13,7 +13,7 @@ namespace OpenTween
     public partial class TweenMain : OTBaseForm
     {
         private SpeechSynthesizer _syn;
-        private LinkedList<string> _speechBook = new LinkedList<string>();
+        private LinkedList<PostClass> _speechBook = new LinkedList<PostClass>();
 
         void InitSpeech()
         {
@@ -34,13 +34,14 @@ namespace OpenTween
         }
         private void OnSpeechNewPost(PostClass[] notifyPosts)
         {
-            StringBuilder sbs = new StringBuilder();
+            //StringBuilder sbs = new StringBuilder();
             foreach (PostClass post in notifyPosts)
             {
-                sbs.Append(processPostSpeech(post));
+                // sbs.Append(processPostSpeech(post));
+                _speechBook.AddFirst(post);
             }
 
-            _speechBook.AddFirst(sbs.ToString());
+            
             Speech();
         }
         private string ReplaceCC(Match m)
@@ -146,14 +147,54 @@ namespace OpenTween
             if (_speechBook.Count == 0)
                 return;
 
-            string bText = _speechBook.Last.Value;
+            PostClass postClass = _speechBook.Last.Value;
+            string bText = processPostSpeech(postClass);
             _speechBook.RemoveLast();
 
             if (!initSpeechEngine())
                 return;
 
-            bText = bText.Replace("’", "'");
-            int rate = 2;
+            int il = ListTab.SelectedIndex;
+            int pi = postClass.StateIndex;
+
+
+            for (int i = 0; i < this._statuses.Tabs[ListTab.SelectedTab.Text].Posts.Count; ++i)
+            {
+                this._statuses.Tabs[ListTab.SelectedTab.Text].Posts.TryGetValue(i, out var post);
+                if (postClass == post)
+                {
+                    SelectListItem((OpenTween.OpenTweenCustomControl.DetailsListView)ListTab.SelectedTab.Tag, i);
+                }
+            }
+
+            //if (!this.Posts.TryGetValue(this.GetStatusIdAt(index), out var post))
+            //    continue;
+            //TabModel foundTab;
+            //int foundIndex;
+
+                ////for (int i = 0; i < ListTab.TabPages.Count; i++)
+                //{
+                //    var tabPage = this.ListTab.SelectedTab;
+                //    var tab = this._statuses.Tabs[tabPage.Text];
+                //    foreach(PostClass pc in tab.Posts.Values)
+                //    {
+                //        if(pc.StateIn
+                //    }
+                //    var unreadIndex = tab.NextUnreadIndex;
+
+                //    if (unreadIndex != -1)
+                //    {
+                //        ListTab.SelectedIndex = i;
+                //        foundTab = tab;
+                //        foundIndex = unreadIndex;
+                //        var lst = tabPage.Tag;
+                //        break;
+                //    }
+                //}
+
+
+
+                int rate = 2;
             if (isEnglish(bText))
             {
                 if (_enVoice != null)
