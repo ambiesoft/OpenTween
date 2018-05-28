@@ -7,6 +7,7 @@ using System.Text.RegularExpressions;
 using HtmlAgilityPack;
 using System.Text;
 using OpenTween.Models;
+using System.Diagnostics;
 
 namespace OpenTween
 {
@@ -24,6 +25,11 @@ namespace OpenTween
             // bool f = isEnglish("An estimated 40.3 million people worldwide are victims of modern slavery. Watch @gaylelemmon, @marklagon, and E. Benjamin Skinner discuss the scourge of modern slavery and what can be done: on.cfr.org/2IDzc7Z");
             // bool g = isEnglish("‘No concessions made’ as US remains hopeful on #NorthKorea summit – Pence on.rt.com/95ta pic.twitter.com/BV3y2SoFKA");
             // bool h = isEnglish("Here'’s how to turn a Mustang GT into a performance");
+            bool iii = isEnglish(@"Respect for human rights is at the ❤️ of development & peace. Without it, we can't achieve #GlobalGoals. Today & every day #StandUp4HumanRights http://standup4humanrights.org ");
+            Debug.WriteLine(isJapanese(@"さっぱりと冷やしうどんは美味いなり 篤人"));
+            Debug.WriteLine(isJapanese(@"昔の武士は、藩に不平があれば諫死しました。さもなければ黙って耐えました。何ものかに属する、とはそういうことです。もともと自由な人間が、何ものかに属して、美しくなるか醜くなるかの境目は、この危ない一点にしかありません。 -士道について——石原慎太郎氏への公開状-"));
+            Debug.WriteLine(isJapanese(@"渡部篤 : 朝日新聞の文藝評論家  小川榮太郎氏と、飛鳥新社へのスラップ訴訟は朝日新聞の言論人への恫喝であり容認できない。言論には、言論で対応すべきである。 "));
+            Debug.WriteLine(isJapanese("〜"));
         }
         bool IsSpeechEnabled
         {
@@ -48,6 +54,35 @@ namespace OpenTween
         {
             return "";
         }
+        string spacer(string s)
+        {
+            StringBuilder sb = new StringBuilder();
+            foreach(char c in s)
+            {
+                sb.Append(c);
+                sb.Append(' ');
+            }
+            return sb.ToString();
+        }
+        string hostSpeakable(string host)
+        {
+            return string.Empty;
+
+            host = host.ToLower();
+            if (false)
+                ;
+            else if (host.EndsWith("asahi.com"))
+                host = "asahi.com";
+            else if (host == "cnb.cx")
+                host = "cnbc";
+            else if (host.EndsWith("forbes.com"))
+                host = "forbes";
+            else if (host.EndsWith("nhk.or.jp"))
+                host = spacer("NHK");
+            else if (host.EndsWith("wsj.com"))
+                host = "Wall Street Journal";
+            return ". U R L : " + host;
+        }
         private string processPostSpeech(PostClass post)
         {
             System.Text.StringBuilder sb = new System.Text.StringBuilder();
@@ -67,7 +102,7 @@ namespace OpenTween
                         if (u.Host == "twitter.com")
                             node.InnerHtml = "";
                         else
-                            node.InnerHtml = " . U R L : " + u.Host + " . ";
+                            node.InnerHtml = hostSpeakable(u.Host) + " . ";
                     }
                     else
                     {
@@ -82,17 +117,26 @@ namespace OpenTween
             return ret;
         }
         Regex _regRemoveEmoji = new Regex(@"\p{Cs}");
-        private bool isEnglish(string text)
+
+        string commonReplace(string text)
         {
-            text = _regRemoveEmoji.Replace(text, "");
-            text = text.Replace("…", "").
+            return text.Replace("…", "").
                 Replace("“", "\"").
                 Replace("”", "\"").
                 Replace("‘", "'").
                 Replace("’", "'").
                 Replace("—", "-").
-                Replace("–", "-");
-
+                Replace("–", "-").
+                Replace("❤️", "").
+                Replace("—", "").
+                Replace("☞", "->").
+                Replace(" ", " ").
+                Replace("〜", "");
+        }
+        private bool isEnglish(string text)
+        {
+            text = _regRemoveEmoji.Replace(text, "");
+            text = commonReplace(text);
             System.Text.Encoding iso = System.Text.Encoding.GetEncoding("iso-8859-1");
             System.Text.Encoding unicode = System.Text.Encoding.Unicode;
 
@@ -105,6 +149,8 @@ namespace OpenTween
         }
         private bool isJapanese(string text)
         {
+            text = commonReplace(text);
+
             System.Text.Encoding sjis = System.Text.Encoding.GetEncoding("sjis");
             System.Text.Encoding unicode = System.Text.Encoding.Unicode;
 
@@ -224,6 +270,7 @@ namespace OpenTween
                 _syn.Rate = rate;
                 _syn.SpeakAsync("Unknown language");
             }
+            Debug.WriteLine(bText);
         }
 
         private void SpeechAllClearMenuItem_Click(object sender, EventArgs e)
