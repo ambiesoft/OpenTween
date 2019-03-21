@@ -8,6 +8,9 @@ using HtmlAgilityPack;
 using System.Text;
 using OpenTween.Models;
 using System.Diagnostics;
+using NTextCat;
+using System.Linq;
+using System.IO;
 
 namespace OpenTween
 {
@@ -18,18 +21,10 @@ namespace OpenTween
 
         void InitSpeech()
         {
-            // bool b = isEnglish(" 🍫🌐 text");
-            // bool c = isEnglish("‘no longer a priority; a pariah’");
-            //string test = "Elon Musk admitted there was a braking issue with the Tesla's Model 3 sedan — but said it would be fixed with a firmware update in a few days. cnb.cx/2KL7YJb";
-            //bool e = isEnglish(test);
-            // bool f = isEnglish("An estimated 40.3 million people worldwide are victims of modern slavery. Watch @gaylelemmon, @marklagon, and E. Benjamin Skinner discuss the scourge of modern slavery and what can be done: on.cfr.org/2IDzc7Z");
-            // bool g = isEnglish("‘No concessions made’ as US remains hopeful on #NorthKorea summit – Pence on.rt.com/95ta pic.twitter.com/BV3y2SoFKA");
-            // bool h = isEnglish("Here'’s how to turn a Mustang GT into a performance");
-            bool iii = isEnglish(@"Respect for human rights is at the ❤️ of development & peace. Without it, we can't achieve #GlobalGoals. Today & every day #StandUp4HumanRights http://standup4humanrights.org ");
-            Debug.WriteLine(isJapanese(@"さっぱりと冷やしうどんは美味いなり 篤人"));
-            Debug.WriteLine(isJapanese(@"昔の武士は、藩に不平があれば諫死しました。さもなければ黙って耐えました。何ものかに属する、とはそういうことです。もともと自由な人間が、何ものかに属して、美しくなるか醜くなるかの境目は、この危ない一点にしかありません。 -士道について——石原慎太郎氏への公開状-"));
-            Debug.WriteLine(isJapanese(@"渡部篤 : 朝日新聞の文藝評論家  小川榮太郎氏と、飛鳥新社へのスラップ訴訟は朝日新聞の言論人への恫喝であり容認できない。言論には、言論で対応すべきである。 "));
-            Debug.WriteLine(isJapanese("〜"));
+            Debug.Assert("eng" == getLanguage("This is THE OpenTween."));
+            Debug.Assert("jpn" == getLanguage("これは開放ツイーンです。"));
+
+            var s = getLanguage(@"Haruhiko Okumura : 再度Facebookで「vaccine」を検索してみる。今日はVACCINE INJURY STORIESというワクチン被害報告グループがトップに ");
         }
         bool IsSpeechEnabled
         {
@@ -48,7 +43,7 @@ namespace OpenTween
             }
 
             
-            Speech();
+            Speak();
         }
         private string ReplaceCC(Match m)
         {
@@ -116,6 +111,24 @@ namespace OpenTween
 
             return ret;
         }
+
+        string removeRedundant(string text, char c)
+        {
+            string cc = c.ToString() + c;
+            string result;
+            do
+            {
+                result = text.Replace(cc, c.ToString());
+            } while (result != text);
+            return result;
+        }
+        string preProcessJapanese(string text)
+        {
+            text = removeRedundant(text, '　');
+            text = text.Replace("　", "。");
+           
+            return text;
+        }
         Regex _regRemoveEmoji = new Regex(@"\p{Cs}");
 
         string commonReplace(string text)
@@ -133,7 +146,7 @@ namespace OpenTween
                 Replace(" ", " ").
                 Replace("〜", "");
         }
-        private bool isEnglish(string text)
+        private bool isEnglish_obsolete(string text)
         {
             text = _regRemoveEmoji.Replace(text, "");
             text = commonReplace(text);
@@ -147,7 +160,7 @@ namespace OpenTween
             string s = unicode.GetString(utf16Bytes);
             return s == text;
         }
-        private bool isJapanese(string text)
+        private bool isJapanese_obsolete(string text)
         {
             text = commonReplace(text);
 
@@ -162,9 +175,32 @@ namespace OpenTween
             return s == text;
         }
 
+        RankedLanguageIdentifier ncIdentifier_;
+        string getLanguage(string text)
+        {
+            if (ncIdentifier_ == null)
+            {
+                var file = Path.Combine(Path.GetDirectoryName(Application.ExecutablePath),
+                    @"Core14.profile.xml");
+                if (!File.Exists(file))
+                {
+                    MessageBox.Show("Profile file of NTextCat not found.");
+                    return string.Empty;
+                }
+                var fac = new RankedLanguageIdentifierFactory();
+                ncIdentifier_ = fac.Load(file);
+            }
+            
+            var languages = ncIdentifier_.Identify(text);
+            var mostCertainLanguage = languages.FirstOrDefault();
+            if (mostCertainLanguage == null)
+                return string.Empty;
+            return mostCertainLanguage.Item1.Iso639_3;
+        }
+
         private void reader_SpeakCompleted(object sender, SpeakCompletedEventArgs e)
         {
-            Speech();
+            Speak();
         }
         private bool initSpeechEngine()
         {
@@ -182,7 +218,30 @@ namespace OpenTween
         }
         private InstalledVoice _enVoice;
         private InstalledVoice _jpVoice;
-        private void Speech()
+        private void SpeakInEng(string text, int rate)
+        {
+            if (_enVoice != null)
+                _syn.SelectVoice(_enVoice.VoiceInfo.Name);
+            else
+                _syn.SelectVoiceByHints(VoiceGender.NotSet, VoiceAge.NotSet, 0, new System.Globalization.CultureInfo("en"));
+
+            _syn.Rate = -rate;
+            _syn.SpeakAsync(text);
+        }
+        private void SpeakInJpn(string text, int rate)
+        {
+            _syn.SelectVoiceByHints(VoiceGender.NotSet, VoiceAge.NotSet, 0, new System.Globalization.CultureInfo("ja"));
+            _syn.Rate = rate;
+            if (_syn.Voice.Culture.Name.ToLower().IndexOf("ja") < 0)
+            {
+                _syn.SpeakAsync("No japanese voice installed.");
+            }
+            else
+            {
+                _syn.SpeakAsync(text);
+            }
+        }
+        private void Speak()
         {
             if (PauseSpeechMenuItem.Checked)
                 return;
@@ -193,9 +252,9 @@ namespace OpenTween
             if (_speechBook.Count == 0)
                 return;
 
-            PostClass postClass = _speechBook.Last.Value;
+            PostClass postClass = _speechBook.First.Value;
             string bText = processPostSpeech(postClass);
-            _speechBook.RemoveLast();
+            _speechBook.RemoveFirst();
 
             if (!initSpeechEngine())
                 return;
@@ -213,62 +272,22 @@ namespace OpenTween
                 }
             }
 
-            //if (!this.Posts.TryGetValue(this.GetStatusIdAt(index), out var post))
-            //    continue;
-            //TabModel foundTab;
-            //int foundIndex;
 
-                ////for (int i = 0; i < ListTab.TabPages.Count; i++)
-                //{
-                //    var tabPage = this.ListTab.SelectedTab;
-                //    var tab = this._statuses.Tabs[tabPage.Text];
-                //    foreach(PostClass pc in tab.Posts.Values)
-                //    {
-                //        if(pc.StateIn
-                //    }
-                //    var unreadIndex = tab.NextUnreadIndex;
-
-                //    if (unreadIndex != -1)
-                //    {
-                //        ListTab.SelectedIndex = i;
-                //        foundTab = tab;
-                //        foundIndex = unreadIndex;
-                //        var lst = tabPage.Tag;
-                //        break;
-                //    }
-                //}
-
-
-
-                int rate = 2;
-            if (isEnglish(bText))
+            int speechRate = 2;
+            var lang = getLanguage(bText);
+            if (lang == "eng")
             {
-                if (_enVoice != null)
-                    _syn.SelectVoice(_enVoice.VoiceInfo.Name);
-                else
-                    _syn.SelectVoiceByHints(VoiceGender.NotSet, VoiceAge.NotSet, 0, new System.Globalization.CultureInfo("en"));
-
-                _syn.Rate = -rate;
-                _syn.SpeakAsync(bText);
+                SpeakInEng(bText, speechRate);
             }
-            else if (isJapanese(bText))
+            else if (lang == "jpn")
             {
-                _syn.SelectVoiceByHints(VoiceGender.NotSet, VoiceAge.NotSet, 0, new System.Globalization.CultureInfo("ja"));
-                _syn.Rate = rate;
-                if (_syn.Voice.Culture.Name.ToLower().IndexOf("ja") < 0)
-                {
-                    _syn.SpeakAsync("No japanese voice.");
-                }
-                else
-                {
-                    _syn.SpeakAsync(bText);
-                }
+                bText = preProcessJapanese(bText);
+
+                SpeakInJpn(bText, speechRate);
             }
             else
             {
-                _syn.SelectVoiceByHints(VoiceGender.NotSet, VoiceAge.NotSet, 0, new System.Globalization.CultureInfo("en"));
-                _syn.Rate = rate;
-                _syn.SpeakAsync("Unknown language");
+                SpeakInEng("Could not detect language.", speechRate);
             }
             Debug.WriteLine(bText);
         }
