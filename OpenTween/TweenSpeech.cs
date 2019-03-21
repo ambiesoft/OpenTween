@@ -96,11 +96,16 @@ namespace OpenTween
                     string title = node.GetAttributeValue("title", "");
                     if (!string.IsNullOrEmpty(title))
                     {
-                        Uri u = new Uri(node.GetAttributeValue("title", ""));
-                        if (u.Host == "twitter.com")
-                            node.InnerHtml = "";
-                        else
-                            node.InnerHtml = hostSpeakable(u.Host) + " . ";
+                        try
+                        {
+                            Uri u = new Uri(node.GetAttributeValue("title", ""));
+                            if (u.Host == "twitter.com")
+                                node.InnerHtml = "";
+                            else
+                                node.InnerHtml = hostSpeakable(u.Host) + " . ";
+                        }
+                        catch(UriFormatException)
+                        { }
                     }
                     else
                     {
