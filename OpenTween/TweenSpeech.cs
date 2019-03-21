@@ -26,9 +26,64 @@ namespace OpenTween
 
             var s = getLanguage(@"Haruhiko Okumura : 再度Facebookで「vaccine」を検索してみる。今日はVACCINE INJURY STORIESというワクチン被害報告グループがトップに ");
 
-            removeRedundant(@"自民・都ファ公明下野までツイッター : 【宮台真司氏が遂に安倍政権の死を予見】嘘の発覚、安倍ミクスの破綻、拉致や北方４島の”やってる嘘”、最悪政権の船はズブズブ漏れ。安倍死瞬間を楽しもう　　　 .  - キッズ政治クラブ",'　');
+            Debug.Assert(!IsHandleCreated);
+            this.HandleCreated += TweenMain_HandleCreated;
 
+            Debug.Assert(!IsDisposed);
+            this.Disposed += TweenMain_Disposed;
         }
+
+        StreamWriter logWriter_;
+        private void TweenMain_HandleCreated(object sender, EventArgs e)
+        {
+            if (Environment.GetCommandLineArgs().Contains("--speechlog"))
+            {
+                string filename = Path.Combine(Path.GetDirectoryName(Application.ExecutablePath),
+                    "speech.log");
+
+                try
+                {
+                    // Append write
+                    logWriter_ = new StreamWriter(filename, true);
+                    logWriter_.WriteLine();
+                    logWriter_.WriteLine(string.Format("======= {0} =======",
+                        DateTime.Now.ToString()));
+                }
+                catch(Exception ex)
+                {
+                    MessageBox.Show(ex.Message);
+                }
+            }
+        }
+        private void TweenMain_Disposed(object sender, EventArgs e)
+        {
+            if (logWriter_ != null)
+            {
+                logWriter_.Close();
+                logWriter_.Dispose();
+                logWriter_ = null;
+            }
+        }
+        void WriteLog(string title, string detail)
+        {
+            if(logWriter_ != null)
+            {
+                try
+                {
+                    logWriter_.Write(title);
+                    logWriter_.Write("\t");
+                    logWriter_.Write(detail);
+                    logWriter_.WriteLine();
+                }
+                catch(Exception ex)
+                {
+                    MessageBox.Show(ex.Message);
+                }
+            }
+        }
+
+       
+
         bool IsSpeechEnabled
         {
             get
@@ -44,8 +99,6 @@ namespace OpenTween
                 // sbs.Append(processPostSpeech(post));
                 _speechBook.AddFirst(post);
             }
-
-            
             Speak();
         }
         private string ReplaceCC(Match m)
@@ -61,25 +114,6 @@ namespace OpenTween
                 sb.Append(' ');
             }
             return sb.ToString();
-        }
-        string hostSpeakable(string host)
-        {
-            return string.Empty;
-
-            host = host.ToLower();
-            if (false)
-                ;
-            else if (host.EndsWith("asahi.com"))
-                host = "asahi.com";
-            else if (host == "cnb.cx")
-                host = "cnbc";
-            else if (host.EndsWith("forbes.com"))
-                host = "forbes";
-            else if (host.EndsWith("nhk.or.jp"))
-                host = spacer("NHK");
-            else if (host.EndsWith("wsj.com"))
-                host = "Wall Street Journal";
-            return ". U R L : " + host;
         }
         private string processPostSpeech(PostClass post)
         {
@@ -102,7 +136,7 @@ namespace OpenTween
                             if (u.Host == "twitter.com")
                                 node.InnerHtml = "";
                             else
-                                node.InnerHtml = hostSpeakable(u.Host) + " . ";
+                                node.InnerHtml = " . ";
                         }
                         catch(UriFormatException)
                         { }
@@ -203,9 +237,23 @@ namespace OpenTween
             
             var languages = ncIdentifier_.Identify(text);
             var mostCertainLanguage = languages.FirstOrDefault();
+
+            string lang;
             if (mostCertainLanguage == null)
-                return string.Empty;
-            return mostCertainLanguage.Item1.Iso639_3;
+                lang = string.Empty;
+            else
+                lang = mostCertainLanguage.Item1.Iso639_3;
+
+            if (string.IsNullOrEmpty(lang) ||
+                (lang != "eng" && lang != "jpn"))
+            {
+                if (isEnglish_obsolete(text))
+                    lang = "eng";
+                else if (isJapanese_obsolete(text))
+                    lang = "jpn";
+            }
+
+            return lang;
         }
 
         private void reader_SpeakCompleted(object sender, SpeakCompletedEventArgs e)
@@ -298,6 +346,7 @@ namespace OpenTween
             else
             {
                 SpeakInEng("Could not detect language.", speechRate);
+                WriteLog("Failed to detect language", bText);
             }
             Debug.WriteLine(bText);
         }
