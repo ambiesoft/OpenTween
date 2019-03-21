@@ -25,6 +25,9 @@ namespace OpenTween
             Debug.Assert("jpn" == getLanguage("これは開放ツイーンです。"));
 
             var s = getLanguage(@"Haruhiko Okumura : 再度Facebookで「vaccine」を検索してみる。今日はVACCINE INJURY STORIESというワクチン被害報告グループがトップに ");
+
+            removeRedundant(@"自民・都ファ公明下野までツイッター : 【宮台真司氏が遂に安倍政権の死を予見】嘘の発覚、安倍ミクスの破綻、拉致や北方４島の”やってる嘘”、最悪政権の船はズブズブ漏れ。安倍死瞬間を楽しもう　　　 .  - キッズ政治クラブ",'　');
+
         }
         bool IsSpeechEnabled
         {
@@ -115,11 +118,13 @@ namespace OpenTween
         string removeRedundant(string text, char c)
         {
             string cc = c.ToString() + c;
-            string result;
+            string result = text;
+            string pre;
             do
             {
-                result = text.Replace(cc, c.ToString());
-            } while (result != text);
+                pre = result;
+                result = pre.Replace(cc, c.ToString());
+            } while (result != pre);
             return result;
         }
         string preProcessJapanese(string text)
