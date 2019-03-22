@@ -23,8 +23,7 @@ namespace OpenTween
         {
             Debug.Assert("eng" == getLanguage("This is THE OpenTween."));
             Debug.Assert("jpn" == getLanguage("これは開放ツイーンです。"));
-
-            var s = getLanguage(@"Haruhiko Okumura : 再度Facebookで「vaccine」を検索してみる。今日はVACCINE INJURY STORIESというワクチン被害報告グループがトップに ");
+            Debug.Assert("jpn" == getLanguage(@"Haruhiko Okumura : 再度Facebookで「vaccine」を検索してみる。今日はVACCINE INJURY STORIESというワクチン被害報告グループがトップに "));
 
             Debug.Assert(!IsHandleCreated);
             this.HandleCreated += TweenMain_HandleCreated;
@@ -93,11 +92,9 @@ namespace OpenTween
         }
         private void OnSpeechNewPost(PostClass[] notifyPosts)
         {
-            //StringBuilder sbs = new StringBuilder();
-            foreach (PostClass post in notifyPosts)
+            foreach (PostClass post in notifyPosts.Reverse())
             {
-                // sbs.Append(processPostSpeech(post));
-                _speechBook.AddFirst(post);
+                _speechBook.AddLast(post);
             }
             Speak();
         }
@@ -190,38 +187,38 @@ namespace OpenTween
                 Replace(" ", " ").
                 Replace("〜", "");
         }
-        private bool isEnglish_obsolete(string text)
+        private bool isCharacters(string encoding,string text)
         {
             text = _regRemoveEmoji.Replace(text, "");
             text = commonReplace(text);
-            System.Text.Encoding iso = System.Text.Encoding.GetEncoding("iso-8859-1");
+            System.Text.Encoding enc = System.Text.Encoding.GetEncoding(encoding);
             System.Text.Encoding unicode = System.Text.Encoding.Unicode;
 
-            byte[] isoBytes = iso.GetBytes(text);
+            byte[] isoBytes = enc.GetBytes(text);
 
-            byte[] utf16Bytes = System.Text.Encoding.Convert(iso, unicode, isoBytes);
+            byte[] utf16Bytes = System.Text.Encoding.Convert(
+                enc, unicode, isoBytes);
 
             string s = unicode.GetString(utf16Bytes);
             return s == text;
         }
-        private bool isJapanese_obsolete(string text)
+        private bool isEnglishCharacters(string text)
         {
-            text = commonReplace(text);
-
-            System.Text.Encoding sjis = System.Text.Encoding.GetEncoding("sjis");
-            System.Text.Encoding unicode = System.Text.Encoding.Unicode;
-
-            byte[] sjisBytes = sjis.GetBytes(text);
-
-            byte[] utf16Bytes = System.Text.Encoding.Convert(sjis, unicode, sjisBytes);
-
-            string s = unicode.GetString(utf16Bytes);
-            return s == text;
+            return isCharacters("iso-8859-1", text);
+        }
+        private bool isJapaneseCharacters(string text)
+        {
+            return isCharacters("sjis", text);
         }
 
         RankedLanguageIdentifier ncIdentifier_;
         string getLanguage(string text)
         {
+            if (isEnglishCharacters(text))
+                return "eng";
+            if (isJapaneseCharacters(text))
+                return "jpn";
+
             if (ncIdentifier_ == null)
             {
                 var file = Path.Combine(Path.GetDirectoryName(Application.ExecutablePath),
@@ -244,14 +241,14 @@ namespace OpenTween
             else
                 lang = mostCertainLanguage.Item1.Iso639_3;
 
-            if (string.IsNullOrEmpty(lang) ||
-                (lang != "eng" && lang != "jpn"))
-            {
-                if (isEnglish_obsolete(text))
-                    lang = "eng";
-                else if (isJapanese_obsolete(text))
-                    lang = "jpn";
-            }
+            //if (string.IsNullOrEmpty(lang) ||
+            //    (lang != "eng" && lang != "jpn"))
+            //{
+            //    if (isEnglish_obsolete(text))
+            //        lang = "eng";
+            //    else if (isJapanese_obsolete(text))
+            //        lang = "jpn";
+            //}
 
             return lang;
         }
@@ -311,8 +308,9 @@ namespace OpenTween
                 return;
 
             PostClass postClass = _speechBook.First.Value;
-            string bText = processPostSpeech(postClass);
             _speechBook.RemoveFirst();
+
+            string bText = processPostSpeech(postClass);
 
             if (!initSpeechEngine())
                 return;
